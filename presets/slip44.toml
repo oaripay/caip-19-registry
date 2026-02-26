@@ -9,3 +9,219 @@ id = 'eip155:1/slip44:60'
 name = 'Ethereum'
 symbol = 'ETH'
 network = 'ETH'
+
+[[asset]]
+id = "xrpl:0/slip44:144"
+name = "XRP"
+symbol = "XRP"
+network = "xrpl"
+
+[[asset]]
+id = "eip155:56/slip44:714"
+name = "BNB"
+symbol = "BNB"
+network = "eip155"
+
+[[asset]]
+id = "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/slip44:501"
+name = "Solana"
+symbol = "SOL"
+network = "solana"
+
+[[asset]]
+id = "tron:0x2b6653dc/slip44:195"
+name = "TRON"
+symbol = "TRX"
+network = "tron"
+
+[[asset]]
+id = "bip122:1a91e3dace36e2be3bf030a65679fe82/slip44:3"
+name = "Dogecoin"
+symbol = "DOGE"
+network = "bip122"
+
+[[asset]]
+id = "cardano:mainnet/slip44:1815"
+name = "Cardano"
+symbol = "ADA"
+network = "cardano"
+
+[[asset]]
+id = "bip122:000000000000000000651ef99cb9fcbe/slip44:145"
+name = "Bitcoin Cash"
+symbol = "BCH"
+network = "bip122"
+
+[[asset]]
+id = "eip155:999/slip44:2457"
+name = "Hyperliquid"
+symbol = "HYPE"
+network = "eip155"
+
+[[asset]]
+id = "canton:mainnet/slip44:6767"
+name = "Canton"
+symbol = "CC"
+network = "canton"
+
+[[asset]]
+id = "monero:418015bb9ae982a1975da7d79277c270/slip44:128"
+name = "Monero"
+symbol = "XMR"
+network = "monero"
+
+[[asset]]
+id = "stellar:pubnet/slip44:148"
+name = "Stellar"
+symbol = "XLM"
+network = "stellar"
+
+[[asset]]
+id = "hedera:mainnet/slip44:3030"
+name = "Hedera"
+symbol = "HBAR"
+network = "hedera"
+
+[[asset]]
+id = "bip122:12a765e31ffd4059bada1e25190f6e98/slip44:2"
+name = "Litecoin"
+symbol = "LTC"
+network = "bip122"
+
+[[asset]]
+id = "zcash:mainnet/slip44:133"
+name = "Zcash"
+symbol = "ZEC"
+network = "zcash"
+
+[[asset]]
+id = "eip155:43114/slip44:9000"
+name = "Avalanche"
+symbol = "AVAX"
+network = "eip155"
+
+[[asset]]
+id = "eip155:25/slip44:394"
+name = "Cronos"
+symbol = "CRO"
+network = "eip155"
+
+[[asset]]
+id = "tvm:-239/slip44:607"
+name = "Toncoin"
+symbol = "TON"
+network = "tvm"
+
+[[asset]]
+id = "polkadot:91b171bb158e2d3848fa23a9f1c25182/slip44:354"
+name = "Polkadot"
+symbol = "DOT"
+network = "polkadot"
+
+[[asset]]
+id = "bittensor:mainnet/slip44:1005"
+name = "Bittensor"
+symbol = "TAO"
+network = "bittensor"
+
+[[asset]]
+id = "pi:mainnet/slip44:314159"
+name = "Pi"
+symbol = "PI"
+network = "pi"
+
+[[asset]]
+id = "near:mainnet/slip44:397"
+name = "NEAR Protocol"
+symbol = "NEAR"
+network = "near"
+
+[[asset]]
+id = "eip155:61/slip44:61"
+name = "Ethereum Classic"
+symbol = "ETC"
+network = "eip155"
+
+[[asset]]
+id = "icp:mainnet/slip44:223"
+name = "Internet Computer"
+symbol = "ICP"
+network = "icp"
+
+[[asset]]
+id = "eip155:137/slip44:966"
+name = "Polygon (prev. MATIC)"
+symbol = "POL"
+network = "eip155"
+
+[[asset]]
+id = "cosmos:cosmoshub-4/slip44:118"
+name = "Cosmos"
+symbol = "ATOM"
+network = "cosmos"
+
+[[asset]]
+id = "kaspa:mainnet/slip44:111111"
+name = "Kaspa"
+symbol = "KAS"
+network = "kaspa"
+
+[[asset]]
+id = "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73k/slip44:283"
+name = "Algorand"
+symbol = "ALGO"
+network = "algorand"
+
+[[asset]]
+id = "fil:f/slip44:461"
+name = "Filecoin"
+symbol = "FIL"
+network = "fil"
+
+[[asset]]
+id = "aptos:1/slip44:637"
+name = "Aptos"
+symbol = "APT"
+network = "aptos"
+
+[[asset]]
+id = "eip155:50/slip44:550"
+name = "XDC Network"
+symbol = "XDC"
+network = "eip155"
+
+[[asset]]
+id = "vechain:mainnet/slip44:818"
+name = "VeChain"
+symbol = "VET"
+network = "vechain"
+
+[[asset]]
+id = "decred:mainnet/slip44:42"
+name = "Decred"
+symbol = "DCR"
+network = "decred"
+
+[[asset]]
+id = "stacks:1/slip44:5757"
+name = "Stacks"
+symbol = "STX"
+network = "stacks"
+
+[[asset]]
+id = "cosmos:pacific-1/slip44:19000118"
+name = "Sei"
+symbol = "SEI"
+network = "cosmos"
+
+[[asset]]
+id = "tezos:NetXdQprcVkpaWU/slip44:1729"
+name = "Tezos"
+symbol = "XTZ"
+network = "tezos"
+
+[[asset]]
+id = "eip155:8217/slip44:8217"
+name = "Kaia"
+symbol = "KAIA"
+network = "eip155"
