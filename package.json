@@ -1,7 +1,7 @@
 {
 	"name": "@oari/caip-19-registry",
 	"type": "module",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"dependencies": {
 		"@hono/node-server": "1.19.9",
 		"@mwni/log": "3.4.0",

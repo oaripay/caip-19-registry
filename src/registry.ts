@@ -36,31 +36,41 @@ export function mapAliasToAsset(
 	ctx: AppContext, 
 	alias: { symbol: string, network?: string, source?: string }
 ): Caip19Asset | null {
-	const aliasSource = alias.source ? alias.source.toLowerCase() : null
 	const aliasSymbol = alias.symbol.toLowerCase()
+	const aliasNetwork = alias.network?.toLowerCase()
+	const aliasSource = alias.source?.toLowerCase()
 
 	const calculateScore = (a: Caip19Alias): number => {
+		const aSymbol = a.symbol.toLocaleLowerCase()
+		const aNetwork = a.network?.toLocaleLowerCase()
+
 		let score = 0
-		
 
-		if(a.symbol.toLowerCase() === aliasSymbol)
-			score += 100
+		if(aliasSource && a.usedBy?.includes(aliasSource)){
+			if(aSymbol === aliasSymbol && aNetwork === aliasNetwork)
+				score += 1
+		}else if(alias.network){
+			if(aSymbol === aliasSymbol && a.network && aNetwork === aliasNetwork)
+				score += 1
+		}else{
+			if(a.network){
+				const concatSymbol = aSymbol + aNetwork
 
-		if(a.network && !alias.network){
-			const concatSymbol = a.symbol.toLowerCase() + a.network.toLowerCase()
-
-			if(concatSymbol === aliasSymbol)
-				score += 50
-
-			if('W' + concatSymbol === aliasSymbol)
-				score += 25
+				if(concatSymbol === aliasSymbol)
+					score += 0.5
+				else if('W' + concatSymbol === aliasSymbol)
+					score += 0.5
+				else if(concatSymbol === 'W' + aliasSymbol)
+					score += 0.5
+			}else{
+				if(aSymbol === aliasSymbol)
+					score += 1
+				else if('W' + aSymbol === aliasSymbol)
+					score += 0.5
+				else if(aSymbol === 'W' + aliasSymbol)
+					score += 0.5
+			}
 		}
-
-		if(alias.network && a.network && a.network.toLowerCase() === alias.network.toLowerCase())
-			score += 10
-
-		if(aliasSource && Array.isArray(a.usedBy) && a.usedBy.some((source: string) => source.toLowerCase() === aliasSource))
-			score += 5
 
 		return score
 	}
@@ -69,7 +79,7 @@ export function mapAliasToAsset(
 		.map(a => ({ alias: a, score: calculateScore(a) }) as { alias: Caip19Alias, score: number })
 		.sort((a, b) => b.score - a.score)
 
-	const bestMatch = ranking.find(entry => entry.score > 5)
+	const bestMatch = ranking.find(entry => entry.score > 0)
 	return bestMatch ? (ctx.aliasMap.get(bestMatch.alias) ?? null) : null
 }
 
