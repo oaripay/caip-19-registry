@@ -1,0 +1,19 @@
+name: Deploy caip-19-registry
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run deploy commands via SSH
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.DEPLOY_SERVER }}
+        username: ${{ secrets.DEPLOY_USER }}
+        password: ${{ secrets.DEPLOY_PASSWORD }}
+        script: |
+          cd /root/caip-19-registry
+          git pull --rebase --autostash
+          pm2 restart caip-19-registry
