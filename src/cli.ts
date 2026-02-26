@@ -13,7 +13,7 @@ import { loadAssetLists } from './registry.js'
 
 const args = minimist(process.argv.slice(2) || [])
 
-log.info(`*** CAIP-19 REGISTRY v${descriptor.version} ***`)
+log.info(`*** CAIP ASSET REGISTRY v${descriptor.version} ***`)
 log.info(`working dir is ${path.resolve()}`)
 
 if(!fs.existsSync('config.toml')){

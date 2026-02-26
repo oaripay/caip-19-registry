@@ -1,4 +1,4 @@
-name: Deploy caip-19-registry
+name: Deploy caip-registry
 
 on:
   workflow_dispatch:
@@ -17,6 +17,6 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           password: ${{ secrets.DEPLOY_PASSWORD }}
           script: |
-            cd /root/caip-19-registry
+            cd /root/caip-registry
             git pull --rebase --autostash
-            pm2 restart caip-19-registry
+            pm2 restart caip-registry

@@ -1,5 +1,5 @@
 {
-	"name": "@oari/caip-19-registry",
+	"name": "@oari/caip-registry",
 	"type": "module",
 	"version": "1.0.1",
 	"dependencies": {
