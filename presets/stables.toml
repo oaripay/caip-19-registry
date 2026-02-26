@@ -1,9 +1,147 @@
 [[asset]]
-id = 'eip155:1/erc20:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
-name = 'USDC on Ethereum'
-symbol = 'USDC'
-network = 'ETH'
+id = 'eip155:1/erc20:0xdac17f958d2ee523a2206206994597c13d831ec7'
+name = 'Tether USD'
+symbol = 'USDT'
+chain_aliases = ['ERC-20', 'ERC20']
 
-[[asset.alias]]
-symbol = 'USDCETH'
-usedBy = ['fixedfloat']
+[[asset]]
+id = 'eip155:56/erc20:0x55d398326f99059ff775485246999027b3197955'
+name = 'Tether USD'
+symbol = 'USDT'
+chain_aliases = ['BEP-20', 'BEP20']
+
+[[asset]]
+id = 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB'
+name = 'Tether USD'
+symbol = 'USDT'
+
+[[asset]]
+id = 'tron:0x2b6653dc/trc20:TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t'
+name = 'Tether USD'
+symbol = 'USDT'
+chain_aliases = ['TRC-20', 'TRC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+name = 'USD Coin'
+symbol = 'USDC'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:56/erc20:0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d'
+name = 'USD Coin'
+symbol = 'USDC'
+chain_aliases = ['BEP-20', 'BEP20']
+
+[[asset]]
+id = 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'
+name = 'USD Coin'
+symbol = 'USDC'
+
+[[asset]]
+id = 'tron:0x2b6653dc/trc20:TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8'
+name = 'USD Coin'
+symbol = 'USDC'
+chain_aliases = ['TRC-20', 'TRC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0xdc035d45d973e3ec169d2276ddab16f1e407384f'
+name = 'USDS (Ethereum)'
+symbol = 'USDS'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x4c9edd5852cd905f086c759e8383e09bff1e68b3'
+name = 'Ethena USDe (Ethereum)'
+symbol = 'USDe'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0xc824bf014539f6bde6b81abaaca0d626c2ac5985'
+name = 'USD One'
+symbol = 'USD1'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x6c3ea9036406852006290770bedfcaba0e23a0e8'
+name = 'PayPal USD'
+symbol = 'PYUSD'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0xc5f0f7b66764f6ec8c8dff7ba683102295e16409'
+name = 'First Digital USD'
+symbol = 'FDUSD'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x6b175474e89094c44da98b954eedeac495271d0f'
+name = 'Dai'
+symbol = 'DAI'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:56/erc20:0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3'
+name = 'Dai'
+symbol = 'DAI'
+chain_aliases = ['BEP-20', 'BEP20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x8292bb45bf1ee4d140127049757c2e0ff06317ed'
+name = 'Ripple USD'
+symbol = 'RLUSD'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0xfa2b947eec368f42195f24f36d2af29f7c24cec2'
+name = 'Falcon USD'
+symbol = 'USDf'
+nchain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x4fabb145d64652a948d72533023f6e7a623c7c53'
+name = 'BUSD'
+symbol = 'BUSD'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:56/erc20:0xe9e7cea3dedca5984780bafc599bd69add087d56'
+name = 'BUSD'
+symbol = 'BUSD'
+chain_aliases = ['BEP-20', 'BEP20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x0000000000085d4780b73119b644ae5ecd22b376'
+name = 'TrueUSD'
+symbol = 'TUSD'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:56/erc20:0x40af3827f39d0eacbf4a168f8d4ee67c121d11c9'
+name = 'TrueUSD'
+symbol = 'TUSD'
+chain_aliases = ['BEP-20', 'BEP20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x8e870d67f660d95d5be530380d0ec0bd388289e1'
+name = 'Pax Dollar'
+symbol = 'USDP'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:56/erc20:0xb3c11196a4f3b1da7c23d9fb0a3dde9c6340934f'
+name = 'Pax Dollar (Binance-Peg on BSC)'
+symbol = 'USDP'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0x056fd409e1d7a124bd7017459dfea2f387b6d5cd'
+name = 'Gemini Dollar'
+symbol = 'GUSD'
+chain_aliases = ['ERC-20', 'ERC20']
+
+[[asset]]
+id = 'eip155:1/erc20:0xa47c8bf37f92abed4a126bda807a7b7498661acd'
+name = 'Wrapped USTC (deprecated/depegged)'
+symbol = 'USTC'
+chain_aliases = ['ERC-20', 'ERC20']
