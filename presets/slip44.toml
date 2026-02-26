@@ -1,7 +1,7 @@
 [[asset]]
 id = 'bip122:000000000019d6689c085ae165831e93/slip44:0'
 name = 'Bitcoin'
-symbols = 'BTC'
+symbol = 'BTC'
 
 [[asset]]
 id = 'eip155:1/slip44:60'
@@ -125,7 +125,7 @@ symbol = 'ICP'
 
 [[asset]]
 id = 'eip155:137/slip44:966'
-name = 'Polygon (prev. MATIC)'
+name = 'Polygon'
 symbol = 'POL'
 
 [[asset]]

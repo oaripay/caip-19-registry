@@ -115,7 +115,7 @@ name = 'Internet Computer'
 
 [[chain]]
 id = 'eip155:137'
-name = 'Polygon (prev. MATIC)'
+name = 'Polygon'
 
 [[chain]]
 id = 'cosmos:cosmoshub-4'
