@@ -28,5 +28,6 @@ export type Caip19Asset = {
 	chain: Caip2Chain,
 	name: string,
 	symbol: string
-	aliases: Array<string>
+	aliases: Array<string>,
+	chainAliases: Array<string>
 }

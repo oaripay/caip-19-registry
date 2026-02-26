@@ -50,57 +50,56 @@ export async function initRegistry(ctx: AppContext){
 
 export function mapAliasToAsset(
 	ctx: AppContext, 
-	alias: { symbol: string, network?: string, platform?: string }
+	alias: { symbol: string, chain?: string }
 ): Caip19Asset | null {
 	const searchSymbol = alias.symbol.toLowerCase()
-	const searchNetwork = alias.network?.toLowerCase()
-	const searchPlatform = alias.platform?.toLowerCase()
+	const searchChain = alias.chain?.toLowerCase()
 
 	const calculateScore = (asset: Caip19Asset): number => {
-		const assetSymbol = asset.symbol.toLowerCase()
-		const assetName = asset.name.toLowerCase()
-		const assetAliases = [
-			{ symbol: assetSymbol },
-			{ network: assetSymbol },
-			{ network: assetName },
-			...asset.aliases
-		]
+		const chainAliases = [
+			asset.chain.name,
+			...(asset.chain.aliases ?? []),
+			...(asset.chainAliases ?? [])
+		].map(a => a.toLowerCase())
 
-		let score = 0
+		const symbolAliases = [
+			asset.symbol,
+			asset.name,
+			...(asset.aliases ?? [])
+		].map(a => a.toLowerCase())
 
-		for(let assetAlias of assetAliases){
-			const aliasSymbol = assetAlias.symbol?.toLowerCase()
-			const aliasNetwork = assetAlias.network?.toLowerCase()
+		if(searchChain){
+			const chainFoundIndex = chainAliases.indexOf(searchChain)
+			const symbolFoundIndex = symbolAliases.indexOf(searchSymbol)
 
-			if(searchSymbol === aliasSymbol && searchNetwork === aliasNetwork){
-				score += 1
-				break
-			}
+			if(chainFoundIndex === -1)
+				return 0
 
-			/*if(searchPlatform && assetAlias.usedBy){
-				const aliasUsedBy = assetAlias.usedBy?.map(platform => platform.toLowerCase())
-			}*/
+			if(symbolFoundIndex === -1)
+				return 0
 
-			if(aliasSymbol && searchSymbol === aliasSymbol)
-				score += 0.25
+			return 1 - chainFoundIndex/100 - symbolFoundIndex/100
+		}else{
+			const concatSymbols = []
 
-			if(searchNetwork){
-				if(aliasNetwork && searchNetwork === aliasNetwork)
-					score += 0.25
-			}else{
-				if(
-					aliasSymbol && aliasNetwork && (
-						searchSymbol === `${aliasSymbol}${aliasNetwork}` ||
-						searchSymbol === `${aliasSymbol}_${aliasNetwork}` ||
-						searchSymbol === `${aliasSymbol}:${aliasNetwork}`
-					)
-				){
-					score += 0.5
+			for(let symbol of symbolAliases){
+				for(let chain of chainAliases){
+					concatSymbols.push(`${symbol}${chain}`)
+					concatSymbols.push(`${symbol}:${chain}`)
+					concatSymbols.push(`${symbol}-${chain}`)
+					concatSymbols.push(`${symbol}_${chain}`)
+					concatSymbols.push(`${symbol}/${chain}`)
+					concatSymbols.push(`${symbol} ${chain}`)
 				}
 			}
-		}
 
-		return score
+			const concatFoundIndex = concatSymbols.indexOf(searchSymbol)
+
+			if(concatFoundIndex === -1)
+				return 0
+
+			return 1 - concatFoundIndex/600 // todo: needs better symmetry
+		}
 	}
 
 	return ctx.assets
