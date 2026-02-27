@@ -1,6 +1,12 @@
+[data]
+dir = '.data'
+
 [server]
 address = '0.0.0.0'
 port = 8090
 
 [log]
 level = 'info'
+
+[coinmarketcap]
+apiKey = '6e48adf8bd6a457e96201defd7a05144'

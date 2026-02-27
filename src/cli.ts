@@ -10,11 +10,11 @@ import descriptor from '../package.json' with { type: 'json' }
 import startServer from './server.js'
 import type { AppConfig, AppContext } from './types.js'
 import { initRegistry } from './registry.js'
+import { openDb } from './db.js'
 
 const args = minimist(process.argv.slice(2) || [])
 
 log.info(`*** CAIP-19 REGISTRY v${descriptor.version} ***`)
-log.info(`working dir is ${path.resolve()}`)
 
 if(!fs.existsSync('config.toml')){
 	log.error(`no config.toml in working dir`)
@@ -30,12 +30,21 @@ try {
 	process.exit(1)
 }
 
+const srcDir = path.dirname(fileURLToPath(import.meta.url))
+const dataDir = path.join(srcDir, '..', config.data.dir)
+
+if(!fs.existsSync(dataDir))
+	fs.mkdirSync(dataDir)
+
 log.config({ level: args.log || config.log.level })
+log.info(`data dir is ${dataDir}`)
 
 const ctx: AppContext = {
-	srcDir: path.dirname(fileURLToPath(import.meta.url)),
+	srcDir,
+	dataDir,
 	version: descriptor.version,
 	config,
+	db: openDb(dataDir),
 	chains: [],
 	assets: []
 }

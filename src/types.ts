@@ -1,4 +1,7 @@
 export type AppConfig = {
+	data: {
+		dir: string
+	},
 	server: {
 		address: string
 		port: number
@@ -8,10 +11,14 @@ export type AppConfig = {
 	}
 }
 
+import type Database from 'better-sqlite3'
+
 export type AppContext = {
-	srcDir: string
-	version: string
-	config: AppConfig
+	srcDir: string,
+	dataDir: string,
+	version: string,
+	config: AppConfig,
+	db: Database,
 	chains: Array<Caip2Chain>,
 	assets: Array<Caip19Asset>,
 	server?: { close: () => void },

@@ -3,6 +3,7 @@ import * as path from 'path'
 import log from '@mwni/log'
 import * as toml from 'toml'
 import { AppContext, Caip2Chain, Caip19Asset } from './types.js'
+import { readAssets, readChains, writeAssets, writeChains } from './db.js'
 
 type PresetConfig = {
 	chain?: Array<Caip2Chain>,
@@ -10,8 +11,19 @@ type PresetConfig = {
 }
 
 export async function initRegistry(ctx: AppContext){
-	let presetsDir = path.join(ctx.srcDir, '..', 'presets')
-	let presetFiles = fs.readdirSync(presetsDir)
+	ingestPresets(ctx)
+
+	ctx.chains = readChains(ctx)
+	ctx.assets = readAssets(ctx)
+	
+	log.info(`loaded ${ctx.chains.length} chains and ${ctx.assets.length} assets in total`)
+}
+
+function ingestPresets(ctx: AppContext){
+	const presetsDir = path.join(ctx.srcDir, '..', 'presets')
+	const presetFiles = fs.readdirSync(presetsDir)
+	const chains = []
+	const assets = []
 
 	for(let file of presetFiles){
 		log.info(`loading preset list ${file}`)
@@ -21,10 +33,10 @@ export async function initRegistry(ctx: AppContext){
 			const { chain, asset }: PresetConfig = toml.parse(configText)
 
 			if(chain?.length)
-				ctx.chains.push(...chain)
+				chains.push(...chain)
 
 			if(asset?.length)
-				ctx.assets.push(...asset)
+				assets.push(...asset)
 
 		}catch (error){
 			log.warn(`corrupt preset file ${file}`)
@@ -32,21 +44,23 @@ export async function initRegistry(ctx: AppContext){
 		}
 	}
 
-	for(let asset of ctx.assets.slice()){
+	for(let asset of assets.slice()){
 		const [chainId, _] = asset.id.split('/')
-		const chain = ctx.chains.find(chain => chain.id === chainId)
+		const chain = chains.find(chain => chain.id === chainId)
 
 		if(!chain){
 			log.warn(`missing chain definition for asset ${asset.id}`)
-			ctx.assets.splice(ctx.assets.indexOf(asset, 1))
+			assets.splice(assets.indexOf(asset, 1))
 			continue
 		}
 
 		asset.chain = chain
 	}
 	
-	log.info(`loaded ${ctx.chains.length} chains and ${ctx.assets.length} assets in total`)
+	writeChains(ctx, chains)
+	writeAssets(ctx, assets)
 }
+
 
 export function mapAliasToAsset(
 	ctx: AppContext, 
