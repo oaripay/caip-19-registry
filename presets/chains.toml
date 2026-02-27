@@ -164,3 +164,167 @@ name = 'Tezos'
 [[chain]]
 id = 'eip155:8217'
 name = 'Kaia'
+
+[[chain]]
+id = 'eip155:8217'
+name = 'Kaia'
+
+[[chain]]
+id = 'eip155:42161'
+name = 'Arbitrum'
+aliases = ['ARB']
+
+[[chain]]
+id = 'eip155:10'
+name = 'Optimism'
+aliases = ['OP']
+
+[[chain]]
+id = 'eip155:8453'
+name = 'Base'
+
+[[chain]]
+id = 'sui:mainnet'
+name = 'Sui'
+aliases = ['SUI']
+
+[[chain]]
+id = 'cosmos:injective-1'
+name = 'Injective'
+aliases = ['INJ']
+
+[[chain]]
+id = 'cosmos:osmosis-1'
+name = 'Osmosis'
+aliases = ['OSMO']
+
+[[chain]]
+id = 'cosmos:celestia'
+name = 'Celestia'
+aliases = ['TIA']
+
+[[chain]]
+id = 'starknet:SN_MAIN'
+name = 'Starknet'
+
+[[chain]]
+id = 'eip155:169'
+name = 'Manta Pacific'
+aliases = ['MANTA']
+
+[[chain]]
+id = 'eip155:324'
+name = 'zkSync Era'
+aliases = ['ZKSERA']
+
+[[chain]]
+id = 'eip155:59144'
+name = 'Linea'
+aliases = ['LINEAETH']
+
+[[chain]]
+id = 'eip155:146'
+name = 'Sonic'
+
+[[chain]]
+id = 'eip155:80084'
+name = 'Berachain'
+aliases = ['BERA']
+
+[[chain]]
+id = 'eip155:1111'
+name = 'WEMIX'
+
+[[chain]]
+id = 'eip155:42220'
+name = 'Celo'
+
+[[chain]]
+id = 'waves:087'
+name = 'Waves'
+
+[[chain]]
+id = 'bip122:00000ffd590b1485b3ca31f031121ecb'
+name = 'Dash'
+aliases = ['DASH']
+
+[[chain]]
+id = 'eip155:361'
+name = 'Theta'
+
+[[chain]]
+id = 'multiversx:1'
+name = 'MultiversX'
+aliases = ['EGLD']
+
+[[chain]]
+id = 'cosmos:akashnet-2'
+name = 'Akash'
+aliases = ['AKT']
+
+[[chain]]
+id = 'eip155:32770'
+name = 'Zilliqa'
+aliases = ['ZIL']
+
+[[chain]]
+id = 'eip155:32769'
+name = 'Zilliqa 2'
+aliases = ['ZIL']
+
+[[chain]]
+id = 'bip122:000000000019d6689c085ae165831e93'
+name = 'Verge'
+aliases = ['XVG']
+
+[[chain]]
+id = 'cosmos:bandchain-1'
+name = 'Band Protocol'
+aliases = ['BAND']
+
+[[chain]]
+id = 'klever:mainnet'
+name = 'Klever'
+aliases = ['KLV']
+
+[[chain]]
+id = 'cosmos:coreum-mainnet-1'
+name = 'Coreum'
+
+[[chain]]
+id = 'eip155:58'
+name = 'Ontology'
+aliases = ['ONT', 'ONG']
+
+[[chain]]
+id = 'nano:mainnet'
+name = 'Nano'
+
+[[chain]]
+id = 'cosmos:fetchhub-4'
+name = 'Fetch.ai'
+aliases = ['FET']
+
+[[chain]]
+id = 'bip122:0000041e3d64c06cf591ed5f865910'
+name = 'PIVX'
+
+[[chain]]
+id = 'bip122:1a91e3dace36e2be3bf030a65679fe'
+name = 'DigiByte'
+aliases = ['DGB']
+
+[[chain]]
+id = 'icon:1'
+name = 'ICON'
+aliases = ['ICX']
+
+[[chain]]
+id = 'casper:casper'
+name = 'Casper'
+aliases = ['CSPR']
+
+[[chain]]
+id = 'eip155:14'
+name = 'Flare'
+aliases = ['FLR']
