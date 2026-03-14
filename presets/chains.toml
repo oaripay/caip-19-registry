@@ -4,19 +4,9 @@ name = 'Bitcoin'
 aliases = ['BTC']
 
 [[chain]]
-id = 'eip155:1'
-name = 'Ethereum'
-aliases = ['ETH']
-
-[[chain]]
 id = 'xrpl:0'
 name = 'XRP'
 aliases = ['XRPL']
-
-[[chain]]
-id = 'eip155:56'
-name = 'BSC'
-aliases = ['BNB', 'Binance Chain']
 
 [[chain]]
 id = 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp'
@@ -42,11 +32,6 @@ aliases = ['ADA']
 id = 'bip122:000000000000000000651ef99cb9fcbe'
 name = 'Bitcoin Cash'
 aliases = ['BCH']
-
-[[chain]]
-id = 'eip155:999'
-name = 'Hyperliquid'
-aliases = ['HYPE']
 
 [[chain]]
 id = 'canton:mainnet'
@@ -76,15 +61,6 @@ id = 'zcash:mainnet'
 name = 'Zcash'
 
 [[chain]]
-id = 'eip155:43114'
-name = 'Avalanche'
-aliases = ['AVA']
-
-[[chain]]
-id = 'eip155:25'
-name = 'Cronos'
-
-[[chain]]
 id = 'tvm:-239'
 name = 'Toncoin'
 aliases = ['TON', 'TVM']
@@ -106,16 +82,8 @@ id = 'near:mainnet'
 name = 'NEAR Protocol'
 
 [[chain]]
-id = 'eip155:61'
-name = 'Ethereum Classic'
-
-[[chain]]
 id = 'icp:mainnet'
 name = 'Internet Computer'
-
-[[chain]]
-id = 'eip155:137'
-name = 'Polygon'
 
 [[chain]]
 id = 'cosmos:cosmoshub-4'
@@ -138,10 +106,6 @@ id = 'aptos:1'
 name = 'Aptos'
 
 [[chain]]
-id = 'eip155:50'
-name = 'XDC Network'
-
-[[chain]]
 id = 'vechain:mainnet'
 name = 'VeChain'
 
@@ -160,28 +124,6 @@ name = 'Sei'
 [[chain]]
 id = 'tezos:NetXdQprcVkpaWU'
 name = 'Tezos'
-
-[[chain]]
-id = 'eip155:8217'
-name = 'Kaia'
-
-[[chain]]
-id = 'eip155:8217'
-name = 'Kaia'
-
-[[chain]]
-id = 'eip155:42161'
-name = 'Arbitrum'
-aliases = ['ARB']
-
-[[chain]]
-id = 'eip155:10'
-name = 'Optimism'
-aliases = ['OP']
-
-[[chain]]
-id = 'eip155:8453'
-name = 'Base'
 
 [[chain]]
 id = 'sui:mainnet'
@@ -208,38 +150,6 @@ id = 'starknet:SN_MAIN'
 name = 'Starknet'
 
 [[chain]]
-id = 'eip155:169'
-name = 'Manta Pacific'
-aliases = ['MANTA']
-
-[[chain]]
-id = 'eip155:324'
-name = 'zkSync Era'
-aliases = ['ZKSERA']
-
-[[chain]]
-id = 'eip155:59144'
-name = 'Linea'
-aliases = ['LINEAETH']
-
-[[chain]]
-id = 'eip155:146'
-name = 'Sonic'
-
-[[chain]]
-id = 'eip155:80084'
-name = 'Berachain'
-aliases = ['BERA']
-
-[[chain]]
-id = 'eip155:1111'
-name = 'WEMIX'
-
-[[chain]]
-id = 'eip155:42220'
-name = 'Celo'
-
-[[chain]]
 id = 'waves:087'
 name = 'Waves'
 
@@ -247,10 +157,6 @@ name = 'Waves'
 id = 'bip122:00000ffd590b1485b3ca31f031121ecb'
 name = 'Dash'
 aliases = ['DASH']
-
-[[chain]]
-id = 'eip155:361'
-name = 'Theta'
 
 [[chain]]
 id = 'multiversx:1'
@@ -261,16 +167,6 @@ aliases = ['EGLD']
 id = 'cosmos:akashnet-2'
 name = 'Akash'
 aliases = ['AKT']
-
-[[chain]]
-id = 'eip155:32770'
-name = 'Zilliqa'
-aliases = ['ZIL']
-
-[[chain]]
-id = 'eip155:32769'
-name = 'Zilliqa 2'
-aliases = ['ZIL']
 
 [[chain]]
 id = 'bip122:000000000019d6689c085ae165831e93'
@@ -290,11 +186,6 @@ aliases = ['KLV']
 [[chain]]
 id = 'cosmos:coreum-mainnet-1'
 name = 'Coreum'
-
-[[chain]]
-id = 'eip155:58'
-name = 'Ontology'
-aliases = ['ONT', 'ONG']
 
 [[chain]]
 id = 'nano:mainnet'
@@ -325,6 +216,3371 @@ name = 'Casper'
 aliases = ['CSPR']
 
 [[chain]]
+id = 'eip155:16600'
+name = '0G Newton Testnet'
+aliases = ['0G Newton Testnet']
+
+[[chain]]
+id = 'eip155:16601'
+name = '0G Galileo Testnet'
+aliases = ['0G Galileo Testnet']
+
+[[chain]]
+id = 'eip155:16661'
+name = '0G Mainnet'
+aliases = ['0G Mainnet', 'Gallileo',]
+
+[[chain]]
+id = 'eip155:16602'
+name = '0G Galileo Testnet'
+aliases = ['0G Galileo Testnet']
+
+[[chain]]
+id = 'eip155:995'
+name = '5ireChain'
+aliases = ['5ireChain']
+
+[[chain]]
+id = 'eip155:179'
+name = 'ABEY Mainnet'
+aliases = ['ABEY Mainnet']
+
+[[chain]]
+id = 'eip155:2741'
+name = 'Abstract'
+aliases = ['Abstract']
+
+[[chain]]
+id = 'eip155:11124'
+name = 'Abstract Testnet'
+aliases = ['Abstract Testnet']
+
+[[chain]]
+id = 'eip155:787'
+name = 'Acala'
+aliases = ['Acala']
+
+[[chain]]
+id = 'eip155:47'
+name = 'Acria IntelliChain'
+aliases = ['Acria IntelliChain']
+
+[[chain]]
+id = 'eip155:1215'
+name = 'ADF Chain'
+aliases = ['ADF Chain']
+
+[[chain]]
+id = 'eip155:36900'
+name = 'ADI_Chain'
+aliases = ['ADI_Chain']
+
+[[chain]]
+id = 'eip155:9990'
+name = 'Agung Network'
+aliases = ['Agung Network']
+
+[[chain]]
+id = 'eip155:168'
+name = 'AIOZ Network'
+aliases = ['AIOZ Network']
+
+[[chain]]
+id = 'eip155:41455'
+name = 'Aleph Zero'
+aliases = ['Aleph Zero']
+
+[[chain]]
+id = 'eip155:2039'
+name = 'Aleph Zero Testnet'
+aliases = ['Aleph Zero Testnet']
+
+[[chain]]
+id = 'eip155:10241024'
+name = 'AlienX Mainnet'
+aliases = ['AlienX Mainnet']
+
+[[chain]]
+id = 'eip155:10241025'
+name = 'ALIENX Hal Testnet'
+aliases = ['ALIENX Hal Testnet']
+
+[[chain]]
+id = 'eip155:8150'
+name = 'Alpen Testnet'
+aliases = ['Alpen Testnet']
+
+[[chain]]
+id = 'eip155:888888888'
+name = 'Ancient8'
+aliases = ['Ancient8']
+
+[[chain]]
+id = 'eip155:28122024'
+name = 'Ancient8 Testnet'
+aliases = ['Ancient8 Testnet']
+
+[[chain]]
+id = 'eip155:31337'
+name = 'Anvil'
+aliases = ['Anvil']
+
+[[chain]]
+id = 'eip155:33139'
+name = 'ApeChain'
+aliases = ['ApeChain']
+
+[[chain]]
+id = 'eip155:3993'
+name = 'APEX Testnet'
+aliases = ['APEX Testnet']
+
+[[chain]]
+id = 'eip155:62606'
+name = 'Apollo'
+aliases = ['Apollo']
+
+[[chain]]
+id = 'eip155:42161'
+name = 'Arbitrum One'
+aliases = ['Arbitrum One']
+
+[[chain]]
+id = 'eip155:421613'
+name = 'Arbitrum Goerli'
+aliases = ['Arbitrum Goerli']
+
+[[chain]]
+id = 'eip155:42170'
+name = 'Arbitrum Nova'
+aliases = ['Arbitrum Nova']
+
+[[chain]]
+id = 'eip155:421614'
+name = 'Arbitrum Sepolia'
+aliases = ['Arbitrum Sepolia']
+
+[[chain]]
+id = 'eip155:5042002'
+name = 'Arc Testnet'
+aliases = ['Arc Testnet']
+
+[[chain]]
+id = 'eip155:7897'
+name = 'Arena-Z'
+aliases = ['Arena-Z']
+
+[[chain]]
+id = 'eip155:463'
+name = 'Areon Network'
+aliases = ['Areon Network']
+
+[[chain]]
+id = 'eip155:462'
+name = 'Areon Network Testnet'
+aliases = ['Areon Network Testnet']
+
+[[chain]]
+id = 'eip155:11822'
+name = 'Artela Testnet'
+aliases = ['Artela Testnet']
+
+[[chain]]
+id = 'eip155:10242'
+name = 'Arthera'
+aliases = ['Arthera']
+
+[[chain]]
+id = 'eip155:10243'
+name = 'Arthera Testnet'
+aliases = ['Arthera Testnet']
+
+[[chain]]
+id = 'eip155:42420'
+name = 'AssetChain Mainnet'
+aliases = ['AssetChain Mainnet']
+
+[[chain]]
+id = 'eip155:42421'
+name = 'AssetChain Testnet'
+aliases = ['AssetChain Testnet']
+
+[[chain]]
+id = 'eip155:592'
+name = 'Astar'
+aliases = ['Astar']
+
+[[chain]]
+id = 'eip155:3776'
+name = 'Astar zkEVM'
+aliases = ['Astar zkEVM']
+
+[[chain]]
+id = 'eip155:6038361'
+name = 'Astar zkEVM Testnet zKyoto'
+aliases = ['Astar zkEVM Testnet zKyoto']
+
+[[chain]]
+id = 'eip155:2340'
+name = 'Atleta Olympia'
+aliases = ['Atleta Olympia']
+
+[[chain]]
+id = 'eip155:1313161554'
+name = 'Aurora'
+aliases = ['Aurora']
+
+[[chain]]
+id = 'eip155:1313161555'
+name = 'Aurora Testnet'
+aliases = ['Aurora Testnet']
+
+[[chain]]
+id = 'eip155:205205'
+name = 'Auroria Testnet'
+aliases = ['Auroria Testnet']
+
+[[chain]]
+id = 'eip155:785'
+name = 'Autheo Testnet'
+aliases = ['Autheo Testnet']
+
+[[chain]]
+id = 'eip155:43114'
+name = 'Avalanche'
+aliases = ['Avalanche']
+
+[[chain]]
+id = 'eip155:43113'
+name = 'Avalanche Fuji'
+aliases = ['Avalanche Fuji']
+
+[[chain]]
+id = 'eip155:8333'
+name = 'B3'
+aliases = ['B3']
+
+[[chain]]
+id = 'eip155:1993'
+name = 'B3 Sepolia'
+aliases = ['B3 Sepolia']
+
+[[chain]]
+id = 'eip155:5165'
+name = 'Bahamut'
+aliases = ['Bahamut']
+
+[[chain]]
+id = 'eip155:8453'
+name = 'Base'
+aliases = ['Base']
+
+[[chain]]
+id = 'eip155:123420001114'
+name = 'Basecamp Testnet'
+aliases = ['Basecamp Testnet']
+
+[[chain]]
+id = 'eip155:84531'
+name = 'Base Goerli'
+aliases = ['Base Goerli']
+
+[[chain]]
+id = 'eip155:84532'
+name = 'Base Sepolia'
+aliases = ['Base Sepolia']
+
+[[chain]]
+id = 'eip155:4337'
+name = 'Beam'
+aliases = ['Beam']
+
+[[chain]]
+id = 'eip155:13337'
+name = 'Beam Testnet'
+aliases = ['Beam Testnet']
+
+[[chain]]
+id = 'eip155:641230'
+name = 'Bear Network Chain Mainnet'
+aliases = ['Bear Network Chain Mainnet']
+
+[[chain]]
+id = 'eip155:751230'
+name = 'Bear Network Chain Testnet'
+aliases = ['Bear Network Chain Testnet']
+
+[[chain]]
+id = 'eip155:80094'
+name = 'Berachain'
+aliases = ['Bera']
+
+[[chain]]
+id = 'eip155:80069'
+name = 'Berachain Bepolia'
+aliases = ['Berachain Bepolia']
+
+[[chain]]
+id = 'eip155:80085'
+name = 'Berachain Artio'
+aliases = ['Berachain Artio']
+
+[[chain]]
+id = 'eip155:80084'
+name = 'Berachain bArtio'
+aliases = ['Berachain bArtio']
+
+[[chain]]
+id = 'eip155:11501'
+name = 'BEVM Mainnet'
+aliases = ['BEVM Mainnet']
+
+[[chain]]
+id = 'eip155:3068'
+name = 'Bifrost Mainnet'
+aliases = ['Bifrost Mainnet']
+
+[[chain]]
+id = 'eip155:53456'
+name = 'BirdLayer'
+aliases = ['BirdLayer']
+
+[[chain]]
+id = 'eip155:32520'
+name = 'Bitgert Mainnet'
+aliases = ['Bitgert Mainnet']
+
+[[chain]]
+id = 'eip155:96'
+name = 'KUB Mainnet'
+aliases = ['KUB Mainnet']
+
+[[chain]]
+id = 'eip155:25925'
+name = 'Bitkub Testnet'
+aliases = ['Bitkub Testnet']
+
+[[chain]]
+id = 'eip155:200901'
+name = 'Bitlayer Mainnet'
+aliases = ['Bitlayer Mainnet']
+
+[[chain]]
+id = 'eip155:200810'
+name = 'Bitlayer Testnet'
+aliases = ['Bitlayer Testnet']
+
+[[chain]]
+id = 'eip155:7171'
+name = 'Bitrock Mainnet'
+aliases = ['Bitrock Mainnet']
+
+[[chain]]
+id = 'eip155:199'
+name = 'BitTorrent'
+aliases = ['BitTorrent']
+
+[[chain]]
+id = 'eip155:1028'
+name = 'BitTorrent Chain Testnet'
+aliases = ['BitTorrent Chain Testnet']
+
+[[chain]]
+id = 'eip155:81457'
+name = 'Blast'
+aliases = ['Blast']
+
+[[chain]]
+id = 'eip155:168587773'
+name = 'Blast Sepolia'
+aliases = ['Blast Sepolia']
+
+[[chain]]
+id = 'eip155:60808'
+name = 'BOB'
+aliases = ['BOB']
+
+[[chain]]
+id = 'eip155:288'
+name = 'Boba Network'
+aliases = ['Boba Network']
+
+[[chain]]
+id = 'eip155:28882'
+name = 'Boba Sepolia'
+aliases = ['Boba Sepolia']
+
+[[chain]]
+id = 'eip155:808813'
+name = 'BOB Sepolia'
+aliases = ['BOB Sepolia']
+
+[[chain]]
+id = 'eip155:11100'
+name = 'Bool Beta Mainnet'
+aliases = ['Bool Beta Mainnet']
+
+[[chain]]
+id = 'eip155:3637'
+name = 'Botanix'
+aliases = ['Botanix']
+
+[[chain]]
+id = 'eip155:3636'
+name = 'Botanix Testnet'
+aliases = ['Botanix Testnet']
+
+[[chain]]
+id = 'eip155:6001'
+name = 'BounceBit Mainnet'
+aliases = ['BounceBit Mainnet']
+
+[[chain]]
+id = 'eip155:6000'
+name = 'BounceBit Testnet'
+aliases = ['BounceBit Testnet']
+
+[[chain]]
+id = 'eip155:1039'
+name = 'Bronos'
+aliases = ['Bronos']
+
+[[chain]]
+id = 'eip155:1038'
+name = 'Bronos Testnet'
+aliases = ['Bronos Testnet']
+
+[[chain]]
+id = 'eip155:56'
+name = 'BNB Smart Chain'
+aliases = ['BNB Smart Chain', 'Binance Chain']
+
+[[chain]]
+id = 'eip155:1017'
+name = 'BNB Greenfield Chain'
+aliases = ['BNB Greenfield Chain']
+
+[[chain]]
+id = 'eip155:97'
+name = 'BNB Smart Chain Testnet'
+aliases = ['BNB Smart Chain Testnet']
+
+[[chain]]
+id = 'eip155:223'
+name = 'B2'
+aliases = ['B2']
+
+[[chain]]
+id = 'eip155:1123'
+name = 'B2 Testnet'
+aliases = ['B2 Testnet']
+
+[[chain]]
+id = 'eip155:4999'
+name = 'BlackFort Exchange Network'
+aliases = ['BlackFort Exchange Network']
+
+[[chain]]
+id = 'eip155:4777'
+name = 'BlackFort Exchange Network Testnet'
+aliases = ['BlackFort Exchange Network Testnet']
+
+[[chain]]
+id = 'eip155:13370'
+name = 'Cannon'
+aliases = ['Cannon']
+
+[[chain]]
+id = 'eip155:7700'
+name = 'Canto'
+aliases = ['Canto']
+
+[[chain]]
+id = 'eip155:42220'
+name = 'Celo'
+aliases = ['Celo']
+
+[[chain]]
+id = 'eip155:44787'
+name = 'Alfajores'
+aliases = ['Alfajores']
+
+[[chain]]
+id = 'eip155:11142220'
+name = 'Celo Sepolia Testnet'
+aliases = ['Celo Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:5858'
+name = 'Chang Chain Foundation Mainnet'
+aliases = ['Chang Chain Foundation Mainnet']
+
+[[chain]]
+id = 'eip155:88888'
+name = 'Chiliz Chain'
+aliases = ['Chiliz Chain']
+
+[[chain]]
+id = 'eip155:2882'
+name = 'Chips Network'
+aliases = ['Chips Network']
+
+[[chain]]
+id = 'eip155:4114'
+name = 'Citrea Mainnet'
+aliases = ['Citrea Mainnet']
+
+[[chain]]
+id = 'eip155:5115'
+name = 'Citrea Testnet'
+aliases = ['Citrea Testnet']
+
+[[chain]]
+id = 'eip155:61'
+name = 'Ethereum Classic'
+aliases = ['Ethereum Classic']
+
+[[chain]]
+id = 'eip155:81224'
+name = 'Codex'
+aliases = ['Codex']
+
+[[chain]]
+id = 'eip155:812242'
+name = 'Codex Testnet'
+aliases = ['Codex Testnet']
+
+[[chain]]
+id = 'eip155:112'
+name = 'Coinbit Mainnet'
+aliases = ['Coinbit Mainnet']
+
+[[chain]]
+id = 'eip155:52'
+name = 'CoinEx Mainnet'
+aliases = ['CoinEx Mainnet']
+
+[[chain]]
+id = 'eip155:1030'
+name = 'Conflux eSpace'
+aliases = ['Conflux eSpace']
+
+[[chain]]
+id = 'eip155:71'
+name = 'Conflux eSpace Testnet'
+aliases = ['Conflux eSpace Testnet']
+
+[[chain]]
+id = 'eip155:1116'
+name = 'Core Dao'
+aliases = ['Core Dao']
+
+[[chain]]
+id = 'eip155:1115'
+name = 'Core Testnet'
+aliases = ['Core Testnet']
+
+[[chain]]
+id = 'eip155:1114'
+name = 'Core Testnet2'
+aliases = ['Core Testnet2']
+
+[[chain]]
+id = 'eip155:21000000'
+name = 'Corn'
+aliases = ['Corn']
+
+[[chain]]
+id = 'eip155:21000001'
+name = 'Corn Testnet'
+aliases = ['Corn Testnet']
+
+[[chain]]
+id = 'eip155:86608'
+name = 'CpChain'
+aliases = ['CpChain']
+
+[[chain]]
+id = 'eip155:44'
+name = 'Crab Network'
+aliases = ['Crab Network']
+
+[[chain]]
+id = 'eip155:66665'
+name = 'Creator'
+aliases = ['Creator']
+
+[[chain]]
+id = 'eip155:102032'
+name = 'Creditcoin Devnet'
+aliases = ['Creditcoin Devnet']
+
+[[chain]]
+id = 'eip155:102030'
+name = 'Creditcoin'
+aliases = ['Creditcoin']
+
+[[chain]]
+id = 'eip155:102031'
+name = 'Creditcoin Testnet'
+aliases = ['Creditcoin Testnet']
+
+[[chain]]
+id = 'eip155:25'
+name = 'Cronos Mainnet'
+aliases = ['Cronos Mainnet']
+
+[[chain]]
+id = 'eip155:338'
+name = 'Cronos Testnet'
+aliases = ['Cronos Testnet']
+
+[[chain]]
+id = 'eip155:388'
+name = 'Cronos zkEVM Mainnet'
+aliases = ['Cronos zkEVM Mainnet']
+
+[[chain]]
+id = 'eip155:282'
+name = 'Cronos zkEVM Testnet'
+aliases = ['Cronos zkEVM Testnet']
+
+[[chain]]
+id = 'eip155:3737'
+name = 'Crossbell'
+aliases = ['Crossbell']
+
+[[chain]]
+id = 'eip155:4158'
+name = 'CrossFi Mainnet'
+aliases = ['CrossFi Mainnet']
+
+[[chain]]
+id = 'eip155:33111'
+name = 'Curtis'
+aliases = ['Curtis']
+
+[[chain]]
+id = 'eip155:7560'
+name = 'Cyber'
+aliases = ['Cyber']
+
+[[chain]]
+id = 'eip155:111557560'
+name = 'Cyber Testnet'
+aliases = ['Cyber Testnet']
+
+[[chain]]
+id = 'eip155:824'
+name = 'Daily Network Mainnet'
+aliases = ['Daily Network Mainnet']
+
+[[chain]]
+id = 'eip155:825'
+name = 'Daily Network Testnet'
+aliases = ['Daily Network Testnet']
+
+[[chain]]
+id = 'eip155:46'
+name = 'Darwinia Network'
+aliases = ['Darwinia Network']
+
+[[chain]]
+id = 'eip155:55931'
+name = 'Datahaven Testnet'
+aliases = ['Datahaven Testnet']
+
+[[chain]]
+id = 'eip155:20240603'
+name = 'DBK chain'
+aliases = ['DBK chain']
+
+[[chain]]
+id = 'eip155:2716446429837000'
+name = 'Dchain'
+aliases = ['Dchain']
+
+[[chain]]
+id = 'eip155:2713017997578000'
+name = 'Dchain Testnet'
+aliases = ['Dchain Testnet']
+
+[[chain]]
+id = 'eip155:1130'
+name = 'DeFiChain EVM Mainnet'
+aliases = ['DeFiChain EVM Mainnet']
+
+[[chain]]
+id = 'eip155:1131'
+name = 'DeFiChain EVM Testnet'
+aliases = ['DeFiChain EVM Testnet']
+
+[[chain]]
+id = 'eip155:666666666'
+name = 'Degen'
+aliases = ['Degen']
+
+[[chain]]
+id = 'eip155:53935'
+name = 'DFK Chain'
+aliases = ['DFK Chain']
+
+[[chain]]
+id = 'eip155:15'
+name = 'Diode Prenet'
+aliases = ['Diode Prenet']
+
+[[chain]]
+id = 'eip155:513100'
+name = 'DisChain'
+aliases = ['DisChain']
+
+[[chain]]
+id = 'eip155:53457'
+name = 'DODOchain Testnet'
+aliases = ['DODOchain Testnet']
+
+[[chain]]
+id = 'eip155:2000'
+name = 'Dogechain'
+aliases = ['Dogechain']
+
+[[chain]]
+id = 'eip155:97476'
+name = 'Doma Testnet'
+aliases = ['Doma Testnet']
+
+[[chain]]
+id = 'eip155:42026'
+name = 'Donatuz'
+aliases = ['Donatuz']
+
+[[chain]]
+id = 'eip155:7979'
+name = 'DOS Chain'
+aliases = ['DOS Chain']
+
+[[chain]]
+id = 'eip155:3939'
+name = 'DOS Chain Testnet'
+aliases = ['DOS Chain Testnet']
+
+[[chain]]
+id = 'eip155:23451'
+name = 'DreyerX Mainnet'
+aliases = ['DreyerX Mainnet']
+
+[[chain]]
+id = 'eip155:23452'
+name = 'DreyerX Testnet'
+aliases = ['DreyerX Testnet']
+
+[[chain]]
+id = 'eip155:555888'
+name = 'DustBoy IoT'
+aliases = ['DustBoy IoT']
+
+[[chain]]
+id = 'eip155:1100'
+name = 'Dymension'
+aliases = ['Dymension']
+
+[[chain]]
+id = 'eip155:5424'
+name = 'edeXa'
+aliases = ['edeXa']
+
+[[chain]]
+id = 'eip155:1995'
+name = 'edeXa Testnet'
+aliases = ['edeXa Testnet']
+
+[[chain]]
+id = 'eip155:2026'
+name = 'Edgeless Network'
+aliases = ['Edgeless Network']
+
+[[chain]]
+id = 'eip155:202'
+name = 'Edgeless Testnet'
+aliases = ['Edgeless Testnet']
+
+[[chain]]
+id = 'eip155:2021'
+name = 'Edgeware EdgeEVM Mainnet'
+aliases = ['Edgeware EdgeEVM Mainnet']
+
+[[chain]]
+id = 'eip155:2022'
+name = 'Beresheet BereEVM Testnet'
+aliases = ['Beresheet BereEVM Testnet']
+
+[[chain]]
+id = 'eip155:41923'
+name = 'EDU Chain'
+aliases = ['EDU Chain']
+
+[[chain]]
+id = 'eip155:656476'
+name = 'EDU Chain Testnet'
+aliases = ['EDU Chain Testnet']
+
+[[chain]]
+id = 'eip155:20'
+name = 'Elastos Smart Chain'
+aliases = ['Elastos Smart Chain']
+
+[[chain]]
+id = 'eip155:21'
+name = 'Elastos Smart Chain Testnet'
+aliases = ['Elastos Smart Chain Testnet']
+
+[[chain]]
+id = 'eip155:52014'
+name = 'Electroneum Mainnet'
+aliases = ['Electroneum Mainnet']
+
+[[chain]]
+id = 'eip155:5201420'
+name = 'Electroneum Testnet'
+aliases = ['Electroneum Testnet']
+
+[[chain]]
+id = 'eip155:1338'
+name = 'Elysium Testnet'
+aliases = ['Elysium Testnet']
+
+[[chain]]
+id = 'eip155:246'
+name = 'Energy Mainnet'
+aliases = ['Energy Mainnet']
+
+[[chain]]
+id = 'eip155:173'
+name = 'ENI Mainnet'
+aliases = ['ENI Mainnet']
+
+[[chain]]
+id = 'eip155:6912115'
+name = 'ENI Testnet'
+aliases = ['ENI Testnet']
+
+[[chain]]
+id = 'eip155:119'
+name = 'ENULS Mainnet'
+aliases = ['ENULS Mainnet']
+
+[[chain]]
+id = 'eip155:7332'
+name = 'Horizen EON'
+aliases = ['Horizen EON']
+
+[[chain]]
+id = 'eip155:17777'
+name = 'EOS EVM'
+aliases = ['EOS EVM']
+
+[[chain]]
+id = 'eip155:15557'
+name = 'EOS EVM Testnet'
+aliases = ['EOS EVM Testnet']
+
+[[chain]]
+id = 'eip155:140'
+name = 'Eteria'
+aliases = ['Eteria']
+
+[[chain]]
+id = 'eip155:42793'
+name = 'Etherlink'
+aliases = ['Etherlink']
+
+[[chain]]
+id = 'eip155:127823'
+name = 'Etherlink Shadownet Testnet'
+aliases = ['Etherlink Shadownet Testnet']
+
+[[chain]]
+id = 'eip155:128123'
+name = 'Etherlink Testnet'
+aliases = ['Etherlink Testnet']
+
+[[chain]]
+id = 'eip155:183'
+name = 'Ethernity'
+aliases = ['Ethernity']
+
+[[chain]]
+id = 'eip155:20256789'
+name = 'ETP Mainnet'
+aliases = ['ETP Mainnet']
+
+[[chain]]
+id = 'eip155:9001'
+name = 'Evmos'
+aliases = ['Evmos']
+
+[[chain]]
+id = 'eip155:9000'
+name = 'Evmos Testnet'
+aliases = ['Evmos Testnet']
+
+[[chain]]
+id = 'eip155:22052002'
+name = 'Excelon Mainnet'
+aliases = ['Excelon Mainnet']
+
+[[chain]]
+id = 'eip155:2'
+name = 'Expanse Network'
+aliases = ['Expanse Network']
+
+[[chain]]
+id = 'eip155:7200'
+name = 'exSat Network'
+aliases = ['exSat Network']
+
+[[chain]]
+id = 'eip155:839999'
+name = 'exSat Testnet'
+aliases = ['exSat Testnet']
+
+[[chain]]
+id = 'eip155:250'
+name = 'Fantom'
+aliases = ['Fantom']
+
+[[chain]]
+id = 'eip155:64240'
+name = 'Fantom Sonic Open Testnet'
+aliases = ['Fantom Sonic Open Testnet']
+
+[[chain]]
+id = 'eip155:4002'
+name = 'Fantom Testnet'
+aliases = ['Fantom Testnet']
+
+[[chain]]
+id = 'eip155:12306'
+name = 'Fibo Chain'
+aliases = ['Fibo Chain']
+
+[[chain]]
+id = 'eip155:314'
+name = 'Filecoin Mainnet'
+aliases = ['Filecoin Mainnet']
+
+[[chain]]
+id = 'eip155:314159'
+name = 'Filecoin Calibration'
+aliases = ['Filecoin Calibration']
+
+[[chain]]
+id = 'eip155:3141'
+name = 'Filecoin Hyperspace'
+aliases = ['Filecoin Hyperspace']
+
+[[chain]]
+id = 'eip155:253368190'
+name = 'Flame'
+aliases = ['Flame']
+
+[[chain]]
 id = 'eip155:14'
-name = 'Flare'
-aliases = ['FLR']
+name = 'Flare Mainnet'
+aliases = ['Flare', 'FlR']
+
+[[chain]]
+id = 'eip155:114'
+name = 'Flare Testnet Coston2'
+aliases = ['Flare Testnet Coston2']
+
+[[chain]]
+id = 'eip155:747'
+name = 'Flow EVM Mainnet'
+aliases = ['Flow EVM Mainnet']
+
+[[chain]]
+id = 'eip155:646'
+name = 'Flow EVM Previewnet'
+aliases = ['Flow EVM Previewnet']
+
+[[chain]]
+id = 'eip155:545'
+name = 'Flow EVM Testnet'
+aliases = ['Flow EVM Testnet']
+
+[[chain]]
+id = 'eip155:9999999'
+name = 'Fluence'
+aliases = ['Fluence']
+
+[[chain]]
+id = 'eip155:123420000220'
+name = 'Fluence Stage'
+aliases = ['Fluence Stage']
+
+[[chain]]
+id = 'eip155:52164803'
+name = 'Fluence Testnet'
+aliases = ['Fluence Testnet']
+
+[[chain]]
+id = 'eip155:20993'
+name = 'Fluent Testnet'
+aliases = ['Fluent Testnet']
+
+[[chain]]
+id = 'eip155:478'
+name = 'Form Network'
+aliases = ['Form Network']
+
+[[chain]]
+id = 'eip155:984122'
+name = 'Forma'
+aliases = ['Forma']
+
+[[chain]]
+id = 'eip155:132902'
+name = 'Form Testnet'
+aliases = ['Form Testnet']
+
+[[chain]]
+id = 'eip155:80931'
+name = 'Forta Chain'
+aliases = ['Forta Chain']
+
+[[chain]]
+id = 'eip155:252'
+name = 'Fraxtal'
+aliases = ['Fraxtal']
+
+[[chain]]
+id = 'eip155:2522'
+name = 'Fraxtal Testnet'
+aliases = ['Fraxtal Testnet']
+
+[[chain]]
+id = 'eip155:33979'
+name = 'Funki'
+aliases = ['Funki']
+
+[[chain]]
+id = 'eip155:3397901'
+name = 'Funki Sepolia Sandbox'
+aliases = ['Funki Sepolia Sandbox']
+
+[[chain]]
+id = 'eip155:122'
+name = 'Fuse'
+aliases = ['Fuse']
+
+[[chain]]
+id = 'eip155:123'
+name = 'Fuse Sparknet'
+aliases = ['Fuse Sparknet']
+
+[[chain]]
+id = 'eip155:32659'
+name = 'Fusion Mainnet'
+aliases = ['Fusion Mainnet']
+
+[[chain]]
+id = 'eip155:46688'
+name = 'Fusion Testnet'
+aliases = ['Fusion Testnet']
+
+[[chain]]
+id = 'eip155:17069'
+name = 'Garnet Testnet'
+aliases = ['Garnet Testnet']
+
+[[chain]]
+id = 'eip155:86'
+name = 'GateChain Mainnet'
+aliases = ['GateChain Mainnet']
+
+[[chain]]
+id = 'eip155:63157'
+name = 'Geist Mainnet'
+aliases = ['Geist Mainnet']
+
+[[chain]]
+id = 'eip155:16507'
+name = 'Genesys Mainnet'
+aliases = ['Genesys Mainnet']
+
+[[chain]]
+id = 'eip155:91342'
+name = 'GIWA Sepolia'
+aliases = ['GIWA Sepolia']
+
+[[chain]]
+id = 'eip155:251'
+name = 'Glide L1 Protocol XP'
+aliases = ['Glide L1 Protocol XP']
+
+[[chain]]
+id = 'eip155:253'
+name = 'Glide L2 Protocol XP'
+aliases = ['Glide L2 Protocol XP']
+
+[[chain]]
+id = 'eip155:100'
+name = 'Gnosis'
+aliases = ['Gnosis']
+
+[[chain]]
+id = 'eip155:10200'
+name = 'Gnosis Chiado'
+aliases = ['Gnosis Chiado']
+
+[[chain]]
+id = 'eip155:2345'
+name = 'GOAT'
+aliases = ['GOAT']
+
+[[chain]]
+id = 'eip155:1663'
+name = 'Horizen Gobi Testnet'
+aliases = ['Horizen Gobi Testnet']
+
+[[chain]]
+id = 'eip155:60'
+name = 'GoChain'
+aliases = ['GoChain']
+
+[[chain]]
+id = 'eip155:71402'
+name = 'Godwoken Mainnet'
+aliases = ['Godwoken Mainnet']
+
+[[chain]]
+id = 'eip155:5'
+name = 'Goerli'
+aliases = ['Goerli']
+
+[[chain]]
+id = 'eip155:440017'
+name = 'Graphite Network'
+aliases = ['Graphite Network']
+
+[[chain]]
+id = 'eip155:54170'
+name = 'Graphite Network Testnet'
+aliases = ['Graphite Network Testnet']
+
+[[chain]]
+id = 'eip155:1625'
+name = 'Gravity Alpha Mainnet'
+aliases = ['Gravity Alpha Mainnet']
+
+[[chain]]
+id = 'eip155:43419'
+name = 'Gunz Mainnet'
+aliases = ['Gunz Mainnet']
+
+[[chain]]
+id = 'eip155:260'
+name = 'Guru Network Mainnet'
+aliases = ['Guru Network Mainnet']
+
+[[chain]]
+id = 'eip155:261'
+name = 'Guru Network Testnet'
+aliases = ['Guru Network Testnet']
+
+[[chain]]
+id = 'eip155:5112'
+name = 'Ham'
+aliases = ['Ham']
+
+[[chain]]
+id = 'eip155:216'
+name = 'Happychain Testnet'
+aliases = ['Happychain Testnet']
+
+[[chain]]
+id = 'eip155:11235'
+name = 'HAQQ Mainnet'
+aliases = ['HAQQ Mainnet']
+
+[[chain]]
+id = 'eip155:54211'
+name = 'HAQQ Testedge 2'
+aliases = ['HAQQ Testedge 2']
+
+[[chain]]
+id = 'eip155:1666600000'
+name = 'Harmony One'
+aliases = ['Harmony One']
+
+[[chain]]
+id = 'eip155:177'
+name = 'HashKey Chain'
+aliases = ['HashKey Chain']
+
+[[chain]]
+id = 'eip155:133'
+name = 'HashKey Chain Testnet'
+aliases = ['HashKey Chain Testnet']
+
+[[chain]]
+id = 'eip155:1523903251'
+name = 'Haust Network Testnet'
+aliases = ['Haust Network Testnet']
+
+[[chain]]
+id = 'eip155:295'
+name = 'Hedera Mainnet'
+aliases = ['Hedera Mainnet']
+
+[[chain]]
+id = 'eip155:297'
+name = 'Hedera Previewnet'
+aliases = ['Hedera Previewnet']
+
+[[chain]]
+id = 'eip155:296'
+name = 'Hedera Testnet'
+aliases = ['Hedera Testnet']
+
+[[chain]]
+id = 'eip155:8668'
+name = 'Hela Mainnet'
+aliases = ['Hela Mainnet']
+
+[[chain]]
+id = 'eip155:42000'
+name = 'Helios Testnet'
+aliases = ['Helios Testnet']
+
+[[chain]]
+id = 'eip155:43111'
+name = 'Hemi'
+aliases = ['Hemi']
+
+[[chain]]
+id = 'eip155:743111'
+name = 'Hemi Sepolia'
+aliases = ['Hemi Sepolia']
+
+[[chain]]
+id = 'eip155:68414'
+name = 'Henesys'
+aliases = ['Henesys']
+
+[[chain]]
+id = 'eip155:17000'
+name = 'Holesky'
+aliases = ['Holesky']
+
+[[chain]]
+id = 'eip155:560048'
+name = 'Hoodi'
+aliases = ['Hoodi']
+
+[[chain]]
+id = 'eip155:2651420'
+name = 'Horizen Testnet'
+aliases = ['Horizen Testnet']
+
+[[chain]]
+id = 'eip155:269'
+name = 'High Performance Blockchain'
+aliases = ['High Performance Blockchain']
+
+[[chain]]
+id = 'eip155:190415'
+name = 'HPP Mainnet'
+aliases = ['HPP Mainnet']
+
+[[chain]]
+id = 'eip155:181228'
+name = 'HPP Sepolia'
+aliases = ['HPP Sepolia']
+
+[[chain]]
+id = 'eip155:12323'
+name = 'Huddle01 dRTC Chain'
+aliases = ['Huddle01 dRTC Chain']
+
+[[chain]]
+id = 'eip155:2524852'
+name = 'Huddle01 dRTC Chain Testnet'
+aliases = ['Huddle01 dRTC Chain Testnet']
+
+[[chain]]
+id = 'eip155:6985385'
+name = 'Humanity'
+aliases = ['Humanity']
+
+[[chain]]
+id = 'eip155:7080969'
+name = 'Humanity Testnet'
+aliases = ['Humanity Testnet']
+
+[[chain]]
+id = 'eip155:5234'
+name = 'Humanode'
+aliases = ['Humanode']
+
+[[chain]]
+id = 'eip155:14853'
+name = 'Humanode Testnet 5'
+aliases = ['Humanode Testnet 5']
+
+[[chain]]
+id = 'eip155:2911'
+name = 'HYCHAIN'
+aliases = ['HYCHAIN']
+
+[[chain]]
+id = 'eip155:29112'
+name = 'HYCHAIN Testnet'
+aliases = ['HYCHAIN Testnet']
+
+[[chain]]
+id = 'eip155:999'
+name = 'HyperEVM'
+aliases = ['HyperEVM']
+
+[[chain]]
+id = 'eip155:998'
+name = 'Hyperliquid EVM Testnet'
+aliases = ['Hyperliquid EVM Testnet']
+
+[[chain]]
+id = 'eip155:73115'
+name = 'ICB Network'
+aliases = ['ICB Network']
+
+[[chain]]
+id = 'eip155:74'
+name = 'IDChain Mainnet'
+aliases = ['IDChain Mainnet']
+
+[[chain]]
+id = 'eip155:13371'
+name = 'Immutable zkEVM'
+aliases = ['Immutable zkEVM']
+
+[[chain]]
+id = 'eip155:13473'
+name = 'Immutable zkEVM Testnet'
+aliases = ['Immutable zkEVM Testnet']
+
+[[chain]]
+id = 'eip155:2525'
+name = 'inEVM Mainnet'
+aliases = ['inEVM Mainnet']
+
+[[chain]]
+id = 'eip155:7233'
+name = 'InitVerse Mainnet'
+aliases = ['InitVerse Mainnet']
+
+[[chain]]
+id = 'eip155:7234'
+name = 'InitVerse Genesis Testnet'
+aliases = ['InitVerse Genesis Testnet']
+
+[[chain]]
+id = 'eip155:1776'
+name = 'Injective'
+aliases = ['Injective']
+
+[[chain]]
+id = 'eip155:1439'
+name = 'Injective Testnet'
+aliases = ['Injective Testnet']
+
+[[chain]]
+id = 'eip155:57073'
+name = 'Ink'
+aliases = ['Ink']
+
+[[chain]]
+id = 'eip155:763373'
+name = 'Ink Sepolia'
+aliases = ['Ink Sepolia']
+
+[[chain]]
+id = 'eip155:8822'
+name = 'IOTA EVM'
+aliases = ['IOTA EVM']
+
+[[chain]]
+id = 'eip155:1075'
+name = 'IOTA EVM Testnet'
+aliases = ['IOTA EVM Testnet']
+
+[[chain]]
+id = 'eip155:4689'
+name = 'IoTeX'
+aliases = ['IoTeX']
+
+[[chain]]
+id = 'eip155:4690'
+name = 'IoTeX Testnet'
+aliases = ['IoTeX Testnet']
+
+[[chain]]
+id = 'eip155:8017'
+name = 'iSunCoin Mainnet'
+aliases = ['iSunCoin Mainnet']
+
+[[chain]]
+id = 'eip155:680'
+name = 'Jasmy Chain'
+aliases = ['Jasmy Chain']
+
+[[chain]]
+id = 'eip155:681'
+name = 'Jasmy Chain Testnet'
+aliases = ['Jasmy Chain Testnet']
+
+[[chain]]
+id = 'eip155:8899'
+name = 'JB Chain'
+aliases = ['JB Chain']
+
+[[chain]]
+id = 'eip155:88991'
+name = 'Jibchain Testnet'
+aliases = ['Jibchain Testnet']
+
+[[chain]]
+id = 'eip155:81'
+name = 'Japan Open Chain Mainnet'
+aliases = ['Japan Open Chain Mainnet']
+
+[[chain]]
+id = 'eip155:10081'
+name = 'Japan Open Chain Testnet'
+aliases = ['Japan Open Chain Testnet']
+
+[[chain]]
+id = 'eip155:5734951'
+name = 'Jovay Mainnet'
+aliases = ['Jovay Mainnet']
+
+[[chain]]
+id = 'eip155:2019775'
+name = 'Jovay Sepolia Testnet'
+aliases = ['Jovay Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:45003'
+name = 'Juneo JUNE-Chain'
+aliases = ['Juneo JUNE-Chain']
+
+[[chain]]
+id = 'eip155:45013'
+name = 'Juneo BCH1-Chain'
+aliases = ['Juneo BCH1-Chain']
+
+[[chain]]
+id = 'eip155:45004'
+name = 'Juneo DAI1-Chain'
+aliases = ['Juneo DAI1-Chain']
+
+[[chain]]
+id = 'eip155:45010'
+name = 'Juneo DOGE1-Chain'
+aliases = ['Juneo DOGE1-Chain']
+
+[[chain]]
+id = 'eip155:45011'
+name = 'Juneo EUR1-Chain'
+aliases = ['Juneo EUR1-Chain']
+
+[[chain]]
+id = 'eip155:45008'
+name = 'Juneo GLD1-Chain'
+aliases = ['Juneo GLD1-Chain']
+
+[[chain]]
+id = 'eip155:45014'
+name = 'Juneo LINK1-Chain'
+aliases = ['Juneo LINK1-Chain']
+
+[[chain]]
+id = 'eip155:45009'
+name = 'Juneo LTC1-Chain'
+aliases = ['Juneo LTC1-Chain']
+
+[[chain]]
+id = 'eip155:45007'
+name = 'Juneo mBTC1-Chain'
+aliases = ['Juneo mBTC1-Chain']
+
+[[chain]]
+id = 'eip155:45012'
+name = 'Juneo SGD1-Chain'
+aliases = ['Juneo SGD1-Chain']
+
+[[chain]]
+id = 'eip155:101003'
+name = 'Socotra JUNE-Chain'
+aliases = ['Socotra JUNE-Chain']
+
+[[chain]]
+id = 'eip155:45006'
+name = 'Juneo USD1-Chain'
+aliases = ['Juneo USD1-Chain']
+
+[[chain]]
+id = 'eip155:45005'
+name = 'Juneo USDT1-Chain'
+aliases = ['Juneo USDT1-Chain']
+
+[[chain]]
+id = 'eip155:8217'
+name = 'Kaia'
+aliases = ['Kaia']
+
+[[chain]]
+id = 'eip155:1001'
+name = 'Kairos Testnet'
+aliases = ['Kairos Testnet']
+
+[[chain]]
+id = 'eip155:1802203764'
+name = 'Kakarot Sepolia'
+aliases = ['Kakarot Sepolia']
+
+[[chain]]
+id = 'eip155:920637907288165'
+name = 'Kakarot Starknet Sepolia'
+aliases = ['Kakarot Starknet Sepolia']
+
+[[chain]]
+id = 'eip155:24'
+name = 'KardiaChain Mainnet'
+aliases = ['KardiaChain Mainnet']
+
+[[chain]]
+id = 'eip155:686'
+name = 'Karura'
+aliases = ['Karura']
+
+[[chain]]
+id = 'eip155:747474'
+name = 'Katana'
+aliases = ['Katana']
+
+[[chain]]
+id = 'eip155:2222'
+name = 'Kava EVM'
+aliases = ['Kava EVM']
+
+[[chain]]
+id = 'eip155:2221'
+name = 'Kava EVM Testnet'
+aliases = ['Kava EVM Testnet']
+
+[[chain]]
+id = 'eip155:321'
+name = 'KCC Mainnet'
+aliases = ['KCC Mainnet']
+
+[[chain]]
+id = 'eip155:1783'
+name = 'KiiChain'
+aliases = ['KiiChain']
+
+[[chain]]
+id = 'eip155:1336'
+name = 'Kii Testnet Oro'
+aliases = ['Kii Testnet Oro']
+
+[[chain]]
+id = 'eip155:7887'
+name = 'Kinto Mainnet'
+aliases = ['Kinto Mainnet']
+
+[[chain]]
+id = 'eip155:701'
+name = 'Koi Network'
+aliases = ['Koi Network']
+
+[[chain]]
+id = 'eip155:255'
+name = 'Kroma'
+aliases = ['Kroma']
+
+[[chain]]
+id = 'eip155:2358'
+name = 'Kroma Sepolia'
+aliases = ['Kroma Sepolia']
+
+[[chain]]
+id = 'eip155:1983'
+name = 'Krown'
+aliases = ['Krown']
+
+[[chain]]
+id = 'eip155:12324'
+name = 'L3X Protocol'
+aliases = ['L3X Protocol']
+
+[[chain]]
+id = 'eip155:12325'
+name = 'L3X Protocol Testnet'
+aliases = ['L3X Protocol Testnet']
+
+[[chain]]
+id = 'eip155:360890'
+name = 'LAVITA Mainnet'
+aliases = ['LAVITA Mainnet']
+
+[[chain]]
+id = 'eip155:232'
+name = 'Lens'
+aliases = ['Lens']
+
+[[chain]]
+id = 'eip155:37111'
+name = 'Lens Testnet'
+aliases = ['Lens Testnet']
+
+[[chain]]
+id = 'eip155:21363'
+name = 'Lestnet'
+aliases = ['Lestnet']
+
+[[chain]]
+id = 'eip155:1891'
+name = 'LightLink Pegasus Testnet'
+aliases = ['LightLink Pegasus Testnet']
+
+[[chain]]
+id = 'eip155:1890'
+name = 'LightLink Phoenix Mainnet'
+aliases = ['LightLink Phoenix']
+
+[[chain]]
+id = 'eip155:59144'
+name = 'Linea Mainnet'
+aliases = ['Linea Mainnet', 'Linea']
+
+[[chain]]
+id = 'eip155:59140'
+name = 'Linea Goerli Testnet'
+aliases = ['Linea Goerli Testnet']
+
+[[chain]]
+id = 'eip155:59141'
+name = 'Linea Sepolia Testnet'
+aliases = ['Linea Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:1135'
+name = 'Lisk'
+aliases = ['Lisk']
+
+[[chain]]
+id = 'eip155:4202'
+name = 'Lisk Sepolia'
+aliases = ['Lisk Sepolia']
+
+[[chain]]
+id = 'eip155:9496'
+name = 'Load Alphanet'
+aliases = ['Load Alphanet']
+
+[[chain]]
+id = 'eip155:1337'
+name = 'Localhost'
+aliases = ['Localhost']
+
+[[chain]]
+id = 'eip155:15551'
+name = 'LoopNetwork Mainnet'
+aliases = ['LoopNetwork Mainnet']
+
+[[chain]]
+id = 'eip155:42'
+name = 'LUKSO'
+aliases = ['LUKSO']
+
+[[chain]]
+id = 'eip155:4201'
+name = 'LUKSO Testnet'
+aliases = ['LUKSO Testnet']
+
+[[chain]]
+id = 'eip155:994873017'
+name = 'Lumia Mainnet'
+aliases = ['Lumia Mainnet']
+
+[[chain]]
+id = 'eip155:1952959480'
+name = 'Lumia Testnet'
+aliases = ['Lumia Testnet']
+
+[[chain]]
+id = 'eip155:96370'
+name = 'Lumoz'
+aliases = ['Lumoz']
+
+[[chain]]
+id = 'eip155:105363'
+name = 'Lumoz Testnet'
+aliases = ['Lumoz Testnet']
+
+[[chain]]
+id = 'eip155:1122'
+name = 'LuxePorts'
+aliases = ['LuxePorts']
+
+[[chain]]
+id = 'eip155:721'
+name = 'Lycan'
+aliases = ['Lycan']
+
+[[chain]]
+id = 'eip155:957'
+name = 'Lyra Chain'
+aliases = ['Lyra Chain']
+
+[[chain]]
+id = 'eip155:1'
+name = 'Ethereum'
+aliases = ['ETH']
+
+[[chain]]
+id = 'eip155:595'
+name = 'Mandala TC9'
+aliases = ['Mandala TC9']
+
+[[chain]]
+id = 'eip155:169'
+name = 'Manta Pacific Mainnet'
+aliases = ['Manta Pacific Mainnet']
+
+[[chain]]
+id = 'eip155:3441006'
+name = 'Manta Pacific Sepolia Testnet'
+aliases = ['Manta Pacific Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:3441005'
+name = 'Manta Pacific Testnet'
+aliases = ['Manta Pacific Testnet']
+
+[[chain]]
+id = 'eip155:5000'
+name = 'Mantle'
+aliases = ['Mantle']
+
+[[chain]]
+id = 'eip155:5003'
+name = 'Mantle Sepolia Testnet'
+aliases = ['Mantle Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:5001'
+name = 'Mantle Testnet'
+aliases = ['Mantle Testnet']
+
+[[chain]]
+id = 'eip155:5887'
+name = 'MANTRA DuKong EVM Testnet'
+aliases = ['MANTRA DuKong EVM Testnet']
+
+[[chain]]
+id = 'eip155:5888'
+name = 'MANTRA EVM'
+aliases = ['MANTRA EVM']
+
+[[chain]]
+id = 'eip155:22776'
+name = 'MAP Protocol'
+aliases = ['MAP Protocol']
+
+[[chain]]
+id = 'eip155:698'
+name = 'Matchain'
+aliases = ['Matchain']
+
+[[chain]]
+id = 'eip155:699'
+name = 'Matchain Testnet'
+aliases = ['Matchain Testnet']
+
+[[chain]]
+id = 'eip155:29548'
+name = 'MCH Verse'
+aliases = ['MCH Verse']
+
+[[chain]]
+id = 'eip155:4326'
+name = 'MegaETH'
+aliases = ['MegaETH']
+
+[[chain]]
+id = 'eip155:6343'
+name = 'MegaETH Testnet'
+aliases = ['MegaETH Testnet']
+
+[[chain]]
+id = 'eip155:7078815900'
+name = 'Mekong Pectra Devnet'
+aliases = ['Mekong Pectra Devnet']
+
+[[chain]]
+id = 'eip155:333000333'
+name = 'Meld'
+aliases = ['Meld']
+
+[[chain]]
+id = 'eip155:4352'
+name = 'MemeCore'
+aliases = ['MemeCore']
+
+[[chain]]
+id = 'eip155:43521'
+name = 'Formicarium'
+aliases = ['Formicarium']
+
+[[chain]]
+id = 'eip155:4200'
+name = 'Merlin'
+aliases = ['Merlin']
+
+[[chain]]
+id = 'eip155:4203'
+name = 'Merlin Erigon Testnet'
+aliases = ['Merlin Erigon Testnet']
+
+[[chain]]
+id = 'eip155:571'
+name = 'MetaChain Mainnet'
+aliases = ['MetaChain Mainnet']
+
+[[chain]]
+id = 'eip155:1453'
+name = 'MetaChain Istanbul'
+aliases = ['MetaChain Istanbul']
+
+[[chain]]
+id = 'eip155:11'
+name = 'Metadium Network'
+aliases = ['Metadium Network']
+
+[[chain]]
+id = 'eip155:1750'
+name = 'Metal L2'
+aliases = ['Metal L2']
+
+[[chain]]
+id = 'eip155:82'
+name = 'Meter'
+aliases = ['Meter']
+
+[[chain]]
+id = 'eip155:83'
+name = 'Meter Testnet'
+aliases = ['Meter Testnet']
+
+[[chain]]
+id = 'eip155:1088'
+name = 'Metis'
+aliases = ['Metis']
+
+[[chain]]
+id = 'eip155:599'
+name = 'Metis Goerli'
+aliases = ['Metis Goerli']
+
+[[chain]]
+id = 'eip155:59902'
+name = 'Metis Sepolia'
+aliases = ['Metis Sepolia']
+
+[[chain]]
+id = 'eip155:7518'
+name = 'MEVerse Chain Mainnet'
+aliases = ['MEVerse Chain Mainnet']
+
+[[chain]]
+id = 'eip155:4759'
+name = 'MEVerse Chain Testnet'
+aliases = ['MEVerse Chain Testnet']
+
+[[chain]]
+id = 'eip155:185'
+name = 'Mint Mainnet'
+aliases = ['Mint Mainnet']
+
+[[chain]]
+id = 'eip155:1686'
+name = 'Mint Sepolia Testnet'
+aliases = ['Mint Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:124832'
+name = 'Mitosis Testnet'
+aliases = ['Mitosis Testnet']
+
+[[chain]]
+id = 'eip155:34443'
+name = 'Mode Mainnet'
+aliases = ['Mode Mainnet']
+
+[[chain]]
+id = 'eip155:919'
+name = 'Mode Testnet'
+aliases = ['Mode Testnet']
+
+[[chain]]
+id = 'eip155:143'
+name = 'Monad'
+aliases = ['Monad']
+
+[[chain]]
+id = 'eip155:10143'
+name = 'Monad Testnet'
+aliases = ['Monad Testnet']
+
+[[chain]]
+id = 'eip155:1287'
+name = 'Moonbase Alpha'
+aliases = ['Moonbase Alpha']
+
+[[chain]]
+id = 'eip155:1284'
+name = 'Moonbeam'
+aliases = ['Moonbeam']
+
+[[chain]]
+id = 'eip155:1281'
+name = 'Moonbeam Development Node'
+aliases = ['Moonbeam Development Node']
+
+[[chain]]
+id = 'eip155:1285'
+name = 'Moonriver'
+aliases = ['Moonriver']
+
+[[chain]]
+id = 'eip155:2818'
+name = 'Morph'
+aliases = ['Morph']
+
+[[chain]]
+id = 'eip155:2810'
+name = 'Morph Holesky'
+aliases = ['Morph Holesky']
+
+[[chain]]
+id = 'eip155:2710'
+name = 'Morph Sepolia'
+aliases = ['Morph Sepolia']
+
+[[chain]]
+id = 'eip155:5551'
+name = 'Nahmii 2 Mainnet'
+aliases = ['Nahmii 2 Mainnet']
+
+[[chain]]
+id = 'eip155:22222'
+name = 'Nautilus Mainnet'
+aliases = ['Nautilus Mainnet']
+
+[[chain]]
+id = 'eip155:397'
+name = 'NEAR Protocol'
+aliases = ['NEAR Protocol']
+
+[[chain]]
+id = 'eip155:398'
+name = 'NEAR Protocol Testnet'
+aliases = ['NEAR Protocol Testnet']
+
+[[chain]]
+id = 'eip155:245022926'
+name = 'Neon EVM DevNet'
+aliases = ['Neon EVM DevNet']
+
+[[chain]]
+id = 'eip155:245022934'
+name = 'Neon EVM MainNet'
+aliases = ['Neon EVM MainNet']
+
+[[chain]]
+id = 'eip155:47763'
+name = 'Neo X Mainnet'
+aliases = ['Neo X Mainnet']
+
+[[chain]]
+id = 'eip155:12227332'
+name = 'Neo X Testnet T4'
+aliases = ['Neo X Testnet T4']
+
+[[chain]]
+id = 'eip155:1012'
+name = 'Newton'
+aliases = ['Newton']
+
+[[chain]]
+id = 'eip155:4242'
+name = 'Nexi'
+aliases = ['Nexi']
+
+[[chain]]
+id = 'eip155:240'
+name = 'Nexilix Smart Chain'
+aliases = ['Nexilix Smart Chain']
+
+[[chain]]
+id = 'eip155:6900'
+name = 'Nibiru'
+aliases = ['Nibiru']
+
+[[chain]]
+id = 'eip155:200024'
+name = 'Nitrograph Testnet'
+aliases = ['Nitrograph Testnet']
+
+[[chain]]
+id = 'eip155:166'
+name = 'Nomina'
+aliases = ['Nomina']
+
+[[chain]]
+id = 'eip155:4090'
+name = 'Oasis Testnet'
+aliases = ['Oasis Testnet']
+
+[[chain]]
+id = 'eip155:248'
+name = 'Oasys'
+aliases = ['Oasys']
+
+[[chain]]
+id = 'eip155:911867'
+name = 'Odyssey Testnet'
+aliases = ['Odyssey Testnet']
+
+[[chain]]
+id = 'eip155:66'
+name = 'OKC'
+aliases = ['OKC']
+
+[[chain]]
+id = 'eip155:311'
+name = 'Omax Mainnet'
+aliases = ['Omax Mainnet']
+
+[[chain]]
+id = 'eip155:164'
+name = 'Omni Omega'
+aliases = ['Omni Omega']
+
+[[chain]]
+id = 'eip155:309075'
+name = 'One World Chain Mainnet'
+aliases = ['One World Chain Mainnet']
+
+[[chain]]
+id = 'eip155:9700'
+name = 'OORT MainnetDev'
+aliases = ['OORT MainnetDev']
+
+[[chain]]
+id = 'eip155:204'
+name = 'opBNB'
+aliases = ['opBNB']
+
+[[chain]]
+id = 'eip155:5611'
+name = 'opBNB Testnet'
+aliases = ['opBNB Testnet']
+
+[[chain]]
+id = 'eip155:1612'
+name = 'OpenLedger'
+aliases = ['OpenLedger']
+
+[[chain]]
+id = 'eip155:10'
+name = 'OP Mainnet'
+aliases = ['OP Mainnet']
+
+[[chain]]
+id = 'eip155:420'
+name = 'Optimism Goerli'
+aliases = ['Optimism Goerli']
+
+[[chain]]
+id = 'eip155:11155420'
+name = 'OP Sepolia'
+aliases = ['OP Sepolia']
+
+[[chain]]
+id = 'eip155:62050'
+name = 'Optopia'
+aliases = ['Optopia']
+
+[[chain]]
+id = 'eip155:62049'
+name = 'Optopia Testnet'
+aliases = ['Optopia Testnet']
+
+[[chain]]
+id = 'eip155:291'
+name = 'Orderly'
+aliases = ['Orderly']
+
+[[chain]]
+id = 'eip155:4460'
+name = 'Orderly Sepolia'
+aliases = ['Orderly Sepolia']
+
+[[chain]]
+id = 'eip155:41144114'
+name = 'Otim Devnet'
+aliases = ['Otim Devnet']
+
+[[chain]]
+id = 'eip155:11297108109'
+name = 'Palm'
+aliases = ['Palm']
+
+[[chain]]
+id = 'eip155:11297108099'
+name = 'Palm Testnet'
+aliases = ['Palm Testnet']
+
+[[chain]]
+id = 'eip155:420420422'
+name = 'Paseo PassetHub'
+aliases = ['Paseo PassetHub']
+
+[[chain]]
+id = 'eip155:3338'
+name = 'Peaq'
+aliases = ['Peaq']
+
+[[chain]]
+id = 'eip155:424'
+name = 'PGN'
+aliases = ['PGN']
+
+[[chain]]
+id = 'eip155:58008'
+name = 'PGN'
+aliases = ['PGN']
+
+[[chain]]
+id = 'eip155:13381'
+name = 'Phoenix Blockchain'
+aliases = ['Phoenix Blockchain']
+
+[[chain]]
+id = 'eip155:7070'
+name = 'Planq Mainnet'
+aliases = ['Planq Mainnet']
+
+[[chain]]
+id = 'eip155:9745'
+name = 'Plasma'
+aliases = ['Plasma']
+
+[[chain]]
+id = 'eip155:9747'
+name = 'Plasma Devnet'
+aliases = ['Plasma Devnet']
+
+[[chain]]
+id = 'eip155:9746'
+name = 'Plasma Testnet'
+aliases = ['Plasma Testnet']
+
+[[chain]]
+id = 'eip155:1612127'
+name = 'PlayFi Albireo Testnet'
+aliases = ['PlayFi Albireo Testnet']
+
+[[chain]]
+id = 'eip155:242'
+name = 'Plinga'
+aliases = ['Plinga']
+
+[[chain]]
+id = 'eip155:98865'
+name = 'Plume (Legacy)'
+aliases = ['Plume (Legacy)']
+
+[[chain]]
+id = 'eip155:98864'
+name = 'Plume Devnet (Legacy)'
+aliases = ['Plume Devnet (Legacy)']
+
+[[chain]]
+id = 'eip155:98866'
+name = 'Plume'
+aliases = ['Plume']
+
+[[chain]]
+id = 'eip155:98867'
+name = 'Plume Testnet'
+aliases = ['Plume Testnet']
+
+[[chain]]
+id = 'eip155:161221135'
+name = 'Plume Testnet (Legacy)'
+aliases = ['Plume Testnet (Legacy)']
+
+[[chain]]
+id = 'eip155:631571'
+name = 'Polter Testnet'
+aliases = ['Polter Testnet']
+
+[[chain]]
+id = 'eip155:137'
+name = 'Polygon'
+aliases = ['Polygon']
+
+[[chain]]
+id = 'eip155:80002'
+name = 'Polygon Amoy'
+aliases = ['Polygon Amoy']
+
+[[chain]]
+id = 'eip155:80001'
+name = 'Polygon Mumbai'
+aliases = ['Polygon Mumbai']
+
+[[chain]]
+id = 'eip155:1101'
+name = 'Polygon zkEVM'
+aliases = ['Polygon zkEVM']
+
+[[chain]]
+id = 'eip155:2442'
+name = 'Polygon zkEVM Cardona'
+aliases = ['Polygon zkEVM Cardona']
+
+[[chain]]
+id = 'eip155:1442'
+name = 'Polygon zkEVM Testnet'
+aliases = ['Polygon zkEVM Testnet']
+
+[[chain]]
+id = 'eip155:8008'
+name = 'Polynomial'
+aliases = ['Polynomial']
+
+[[chain]]
+id = 'eip155:80008'
+name = 'Polynomia Sepolia'
+aliases = ['Polynomia Sepolia']
+
+[[chain]]
+id = 'eip155:60603'
+name = 'POTOS Mainnet'
+aliases = ['POTOS Mainnet']
+
+[[chain]]
+id = 'eip155:60600'
+name = 'POTOS Testnet'
+aliases = ['POTOS Testnet']
+
+[[chain]]
+id = 'eip155:23023'
+name = 'PremiumBlock Testnet'
+aliases = ['PremiumBlock Testnet']
+
+[[chain]]
+id = 'eip155:369'
+name = 'PulseChain'
+aliases = ['PulseChain']
+
+[[chain]]
+id = 'eip155:943'
+name = 'PulseChain V4'
+aliases = ['PulseChain V4']
+
+[[chain]]
+id = 'eip155:490092'
+name = 'Pumpfi Testnet'
+aliases = ['Pumpfi Testnet']
+
+[[chain]]
+id = 'eip155:695569'
+name = 'Pyrope Testnet'
+aliases = ['Pyrope Testnet']
+
+[[chain]]
+id = 'eip155:766'
+name = 'QL1'
+aliases = ['QL1']
+
+[[chain]]
+id = 'eip155:35441'
+name = 'Q Mainnet'
+aliases = ['Q Mainnet']
+
+[[chain]]
+id = 'eip155:35443'
+name = 'Q Testnet'
+aliases = ['Q Testnet']
+
+[[chain]]
+id = 'eip155:9'
+name = 'Quai Network Mainnet'
+aliases = ['Quai Network Mainnet']
+
+[[chain]]
+id = 'eip155:15000'
+name = 'Quai Network Testnet'
+aliases = ['Quai Network Testnet']
+
+[[chain]]
+id = 'eip155:5318007'
+name = 'Reactive Lasna Testnet'
+aliases = ['Reactive Lasna Testnet']
+
+[[chain]]
+id = 'eip155:111188'
+name = 're.al'
+aliases = ['re.al']
+
+[[chain]]
+id = 'eip155:151'
+name = 'Redbelly Network Mainnet'
+aliases = ['Redbelly Network Mainnet']
+
+[[chain]]
+id = 'eip155:153'
+name = 'Redbelly Network Testnet'
+aliases = ['Redbelly Network Testnet']
+
+[[chain]]
+id = 'eip155:50342'
+name = 'Reddio'
+aliases = ['Reddio']
+
+[[chain]]
+id = 'eip155:50341'
+name = 'Reddio Sepolia'
+aliases = ['Reddio Sepolia']
+
+[[chain]]
+id = 'eip155:690'
+name = 'Redstone'
+aliases = ['Redstone']
+
+[[chain]]
+id = 'eip155:47805'
+name = 'REI Mainnet'
+aliases = ['REI Mainnet']
+
+[[chain]]
+id = 'eip155:1729'
+name = 'Reya Network'
+aliases = ['Reya Network']
+
+[[chain]]
+id = 'eip155:4153'
+name = 'RISE'
+aliases = ['RISE']
+
+[[chain]]
+id = 'eip155:11155931'
+name = 'RISE Testnet'
+aliases = ['RISE Testnet']
+
+[[chain]]
+id = 'eip155:753'
+name = 'Rivalz'
+aliases = ['Rivalz']
+
+[[chain]]
+id = 'eip155:570'
+name = 'Rollux Mainnet'
+aliases = ['Rollux Mainnet']
+
+[[chain]]
+id = 'eip155:57000'
+name = 'Rollux Testnet'
+aliases = ['Rollux Testnet']
+
+[[chain]]
+id = 'eip155:2020'
+name = 'Ronin'
+aliases = ['Ronin']
+
+[[chain]]
+id = 'eip155:7668'
+name = 'The Root Network'
+aliases = ['The Root Network']
+
+[[chain]]
+id = 'eip155:7672'
+name = 'The Root Network - Porcini'
+aliases = ['The Root Network - Porcini']
+
+[[chain]]
+id = 'eip155:30'
+name = 'Rootstock Mainnet'
+aliases = ['Rootstock Mainnet']
+
+[[chain]]
+id = 'eip155:31'
+name = 'Rootstock Testnet'
+aliases = ['Rootstock Testnet']
+
+[[chain]]
+id = 'eip155:12553'
+name = 'RSS3 VSL Mainnet'
+aliases = ['RSS3 VSL Mainnet']
+
+[[chain]]
+id = 'eip155:2331'
+name = 'RSS3 VSL Sepolia Testnet'
+aliases = ['RSS3 VSL Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:7225878'
+name = 'Saakuru Mainnet'
+aliases = ['Saakuru Mainnet']
+
+[[chain]]
+id = 'eip155:5464'
+name = 'Saga'
+aliases = ['Saga']
+
+[[chain]]
+id = 'eip155:202601'
+name = 'Ronin Saigon Testnet'
+aliases = ['Ronin Saigon Testnet']
+
+[[chain]]
+id = 'eip155:1996'
+name = 'Sanko'
+aliases = ['Sanko']
+
+[[chain]]
+id = 'eip155:23294'
+name = 'Oasis Sapphire'
+aliases = ['Oasis Sapphire']
+
+[[chain]]
+id = 'eip155:23295'
+name = 'Oasis Sapphire Testnet'
+aliases = ['Oasis Sapphire Testnet']
+
+[[chain]]
+id = 'eip155:3109'
+name = 'SatoshiVM Alpha Mainnet'
+aliases = ['SatoshiVM Alpha Mainnet']
+
+[[chain]]
+id = 'eip155:3110'
+name = 'SatoshiVM Testnet'
+aliases = ['SatoshiVM Testnet']
+
+[[chain]]
+id = 'eip155:534351'
+name = 'Scroll Sepolia'
+aliases = ['Scroll Sepolia']
+
+[[chain]]
+id = 'eip155:1329'
+name = 'Sei Network'
+aliases = ['Sei Network']
+
+[[chain]]
+id = 'eip155:5124'
+name = 'Seismic Devnet'
+aliases = ['Seismic Devnet']
+
+[[chain]]
+id = 'eip155:1328'
+name = 'Sei Testnet'
+aliases = ['Sei Testnet']
+
+[[chain]]
+id = 'eip155:11155111'
+name = 'Sepolia'
+aliases = ['Sepolia']
+
+[[chain]]
+id = 'eip155:360'
+name = 'Shape'
+aliases = ['Shape']
+
+[[chain]]
+id = 'eip155:11011'
+name = 'Shape Sepolia Testnet'
+aliases = ['Shape Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:8118'
+name = 'Shardeum'
+aliases = ['Shardeum']
+
+[[chain]]
+id = 'eip155:8082'
+name = 'Shardeum Sphinx'
+aliases = ['Shardeum Sphinx']
+
+[[chain]]
+id = 'eip155:109'
+name = 'Shibarium'
+aliases = ['Shibarium']
+
+[[chain]]
+id = 'eip155:157'
+name = 'Puppynet Shibarium'
+aliases = ['Puppynet Shibarium']
+
+[[chain]]
+id = 'eip155:336'
+name = 'Shiden'
+aliases = ['Shiden']
+
+[[chain]]
+id = 'eip155:148'
+name = 'Shimmer'
+aliases = ['Shimmer']
+
+[[chain]]
+id = 'eip155:1073'
+name = 'Shimmer Testnet'
+aliases = ['Shimmer Testnet']
+
+[[chain]]
+id = 'eip155:97453'
+name = 'Sidra Chain'
+aliases = ['Sidra Chain']
+
+[[chain]]
+id = 'eip155:380929'
+name = 'Silent Data Mainnet'
+aliases = ['Silent Data Mainnet']
+
+[[chain]]
+id = 'eip155:2355'
+name = 'Silicon zkEVM'
+aliases = ['Silicon zkEVM']
+
+[[chain]]
+id = 'eip155:1722641160'
+name = 'Silicon Sepolia zkEVM'
+aliases = ['Silicon Sepolia zkEVM']
+
+[[chain]]
+id = 'eip155:98'
+name = 'Six Protocol'
+aliases = ['Six Protocol']
+
+[[chain]]
+id = 'eip155:391845894'
+name = 'SKALE | Block Brawlers'
+aliases = ['SKALE | Block Brawlers']
+
+[[chain]]
+id = 'eip155:1564830818'
+name = 'SKALE Calypso Hub'
+aliases = ['SKALE Calypso Hub']
+
+[[chain]]
+id = 'eip155:974399131'
+name = 'SKALE Calypso Testnet'
+aliases = ['SKALE Calypso Testnet']
+
+[[chain]]
+id = 'eip155:1026062157'
+name = 'SKALE | CryptoBlades'
+aliases = ['SKALE | CryptoBlades']
+
+[[chain]]
+id = 'eip155:1032942172'
+name = 'SKALE | Crypto Colosseum'
+aliases = ['SKALE | Crypto Colosseum']
+
+[[chain]]
+id = 'eip155:2046399126'
+name = 'SKALE Europa Hub'
+aliases = ['SKALE Europa Hub']
+
+[[chain]]
+id = 'eip155:1444673419'
+name = 'SKALE Europa Testnet'
+aliases = ['SKALE Europa Testnet']
+
+[[chain]]
+id = 'eip155:2139927552'
+name = 'Exorde Network'
+aliases = ['Exorde Network']
+
+[[chain]]
+id = 'eip155:1273227453'
+name = 'SKALE | Human Protocol'
+aliases = ['SKALE | Human Protocol']
+
+[[chain]]
+id = 'eip155:1482601649'
+name = 'SKALE Nebula Hub'
+aliases = ['SKALE Nebula Hub']
+
+[[chain]]
+id = 'eip155:37084624'
+name = 'SKALE Nebula Testnet'
+aliases = ['SKALE Nebula Testnet']
+
+[[chain]]
+id = 'eip155:278611351'
+name = 'SKALE | Razor Network'
+aliases = ['SKALE | Razor Network']
+
+[[chain]]
+id = 'eip155:1187947933'
+name = 'SKALE Base'
+aliases = ['SKALE Base']
+
+[[chain]]
+id = 'eip155:324705682'
+name = 'SKALE Base Sepolia Testnet'
+aliases = ['SKALE Base Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:1350216234'
+name = 'SKALE Titan Hub'
+aliases = ['SKALE Titan Hub']
+
+[[chain]]
+id = 'eip155:1020352220'
+name = 'SKALE Titan Testnet'
+aliases = ['SKALE Titan Testnet']
+
+[[chain]]
+id = 'eip155:984123'
+name = 'Forma Sketchpad'
+aliases = ['Forma Sketchpad']
+
+[[chain]]
+id = 'eip155:2192'
+name = 'SnaxChain'
+aliases = ['SnaxChain']
+
+[[chain]]
+id = 'eip155:13001'
+name = 'SnaxChain Testnet'
+aliases = ['SnaxChain Testnet']
+
+[[chain]]
+id = 'eip155:5031'
+name = 'Somnia'
+aliases = ['Somnia']
+
+[[chain]]
+id = 'eip155:50312'
+name = 'Somnia Testnet'
+aliases = ['Somnia Testnet']
+
+[[chain]]
+id = 'eip155:1868'
+name = 'Soneium Mainnet'
+aliases = ['Soneium Mainnet']
+
+[[chain]]
+id = 'eip155:1946'
+name = 'Soneium Minato Testnet'
+aliases = ['Soneium Minato Testnet']
+
+[[chain]]
+id = 'eip155:19'
+name = 'Songbird Canary-Network'
+aliases = ['Songbird Canary-Network']
+
+[[chain]]
+id = 'eip155:16'
+name = 'Songbird Testnet Coston'
+aliases = ['Songbird Testnet Coston']
+
+[[chain]]
+id = 'eip155:146'
+name = 'Sonic'
+aliases = ['Sonic']
+
+[[chain]]
+id = 'eip155:57054'
+name = 'Sonic Blaze Testnet'
+aliases = ['Sonic Blaze Testnet']
+
+[[chain]]
+id = 'eip155:64165'
+name = 'Sonic Testnet'
+aliases = ['Sonic Testnet']
+
+[[chain]]
+id = 'eip155:50104'
+name = 'Sophon'
+aliases = ['Sophon']
+
+[[chain]]
+id = 'eip155:531050104'
+name = 'Sophon Testnet'
+aliases = ['Sophon Testnet']
+
+[[chain]]
+id = 'eip155:100021'
+name = 'Sova'
+aliases = ['Sova']
+
+[[chain]]
+id = 'eip155:120893'
+name = 'Sova Network Sepolia'
+aliases = ['Sova Network Sepolia']
+
+[[chain]]
+id = 'eip155:88882'
+name = 'Chiliz Spicy Testnet'
+aliases = ['Chiliz Spicy Testnet']
+
+[[chain]]
+id = 'eip155:988'
+name = 'Stable Mainnet'
+aliases = ['Stable Mainnet']
+
+[[chain]]
+id = 'eip155:2201'
+name = 'Stable Testnet'
+aliases = ['Stable Testnet']
+
+[[chain]]
+id = 'eip155:1660990954'
+name = 'Status Network Sepolia'
+aliases = ['Status Network Sepolia']
+
+[[chain]]
+id = 'eip155:1234'
+name = 'Step Network'
+aliases = ['Step Network']
+
+[[chain]]
+id = 'eip155:1514'
+name = 'Story'
+aliases = ['Story']
+
+[[chain]]
+id = 'eip155:1315'
+name = 'Story Aeneid'
+aliases = ['Story Aeneid']
+
+[[chain]]
+id = 'eip155:1516'
+name = 'Story Odyssey'
+aliases = ['Story Odyssey']
+
+[[chain]]
+id = 'eip155:1513'
+name = 'Story Testnet'
+aliases = ['Story Testnet']
+
+[[chain]]
+id = 'eip155:105105'
+name = 'Stratis Mainnet'
+aliases = ['Stratis Mainnet']
+
+[[chain]]
+id = 'eip155:964'
+name = 'Subtensor EVM'
+aliases = ['Subtensor EVM']
+
+[[chain]]
+id = 'eip155:8866'
+name = 'SuperLumio'
+aliases = ['SuperLumio']
+
+[[chain]]
+id = 'eip155:55244'
+name = 'Superposition'
+aliases = ['Superposition']
+
+[[chain]]
+id = 'eip155:5330'
+name = 'Superseed'
+aliases = ['Superseed']
+
+[[chain]]
+id = 'eip155:53302'
+name = 'Superseed Sepolia'
+aliases = ['Superseed Sepolia']
+
+[[chain]]
+id = 'eip155:763375'
+name = 'Surge Testnet'
+aliases = ['Surge Testnet']
+
+[[chain]]
+id = 'eip155:254'
+name = 'Swan Chain Mainnet'
+aliases = ['Swan Chain Mainnet']
+
+[[chain]]
+id = 'eip155:20241133'
+name = 'Swan Proxima Testnet'
+aliases = ['Swan Proxima Testnet']
+
+[[chain]]
+id = 'eip155:2024'
+name = 'Swan Saturn Testnet'
+aliases = ['Swan Saturn Testnet']
+
+[[chain]]
+id = 'eip155:1923'
+name = 'Swellchain'
+aliases = ['Swellchain']
+
+[[chain]]
+id = 'eip155:1924'
+name = 'Swellchain Testnet'
+aliases = ['Swellchain Testnet']
+
+[[chain]]
+id = 'eip155:94'
+name = 'SwissDLT Mainnet'
+aliases = ['SwissDLT Mainnet']
+
+[[chain]]
+id = 'eip155:57'
+name = 'Syscoin Mainnet'
+aliases = ['Syscoin Mainnet']
+
+[[chain]]
+id = 'eip155:5700'
+name = 'Syscoin Tanenbaum Testnet'
+aliases = ['Syscoin Tanenbaum Testnet']
+
+[[chain]]
+id = 'eip155:239'
+name = 'TAC'
+aliases = ['TAC']
+
+[[chain]]
+id = 'eip155:2391'
+name = 'TAC SPB Testnet'
+aliases = ['TAC SPB Testnet']
+
+[[chain]]
+id = 'eip155:167000'
+name = 'Taiko Mainnet'
+aliases = ['Taiko Mainnet']
+
+[[chain]]
+id = 'eip155:167009'
+name = 'Taiko Hekla L2'
+aliases = ['Taiko Hekla L2']
+
+[[chain]]
+id = 'eip155:167013'
+name = 'Taiko Hoodi'
+aliases = ['Taiko Hoodi']
+
+[[chain]]
+id = 'eip155:167007'
+name = 'Taiko Jolnir (Alpha-5 Testnet)'
+aliases = ['Taiko Jolnir (Alpha-5 Testnet)']
+
+[[chain]]
+id = 'eip155:167008'
+name = 'Taiko Katla (Alpha-6 Testnet)'
+aliases = ['Taiko Katla (Alpha-6 Testnet)']
+
+[[chain]]
+id = 'eip155:167005'
+name = 'Taiko (Alpha-3 Testnet)'
+aliases = ['Taiko (Alpha-3 Testnet)']
+
+[[chain]]
+id = 'eip155:841'
+name = 'Taraxa Mainnet'
+aliases = ['Taraxa Mainnet']
+
+[[chain]]
+id = 'eip155:842'
+name = 'Taraxa Testnet'
+aliases = ['Taraxa Testnet']
+
+[[chain]]
+id = 'eip155:10218'
+name = 'Tea Sepolia'
+aliases = ['Tea Sepolia']
+
+[[chain]]
+id = 'eip155:2017'
+name = 'Telcoin Adiri Testnet'
+aliases = ['Telcoin Adiri Testnet']
+
+[[chain]]
+id = 'eip155:40'
+name = 'Telos'
+aliases = ['Telos']
+
+[[chain]]
+id = 'eip155:41'
+name = 'Telos'
+aliases = ['Telos']
+
+[[chain]]
+id = 'eip155:4217'
+name = 'Tempo Mainnet'
+aliases = ['Tempo Mainnet']
+
+[[chain]]
+id = 'eip155:42429'
+name = 'Tempo Testnet (Andantino)'
+aliases = ['Tempo Testnet (Andantino)']
+
+[[chain]]
+id = 'eip155:31318'
+name = 'Tempo Devnet'
+aliases = ['Tempo Devnet']
+
+[[chain]]
+id = 'eip155:42431'
+name = 'Tempo Testnet (Moderato)'
+aliases = ['Tempo Testnet (Moderato)']
+
+[[chain]]
+id = 'eip155:1559'
+name = 'Tenet'
+aliases = ['Tenet']
+
+[[chain]]
+id = 'eip155:752025'
+name = 'Ternoa'
+aliases = ['Ternoa']
+
+[[chain]]
+id = 'eip155:7'
+name = 'ThaiChain'
+aliases = ['ThaiChain']
+
+[[chain]]
+id = 'eip155:8428'
+name = 'THAT Mainnet'
+aliases = ['THAT Mainnet']
+
+[[chain]]
+id = 'eip155:361'
+name = 'Theta Mainnet'
+aliases = ['Theta']
+
+[[chain]]
+id = 'eip155:365'
+name = 'Theta Testnet'
+aliases = ['Theta Testnet']
+
+[[chain]]
+id = 'eip155:108'
+name = 'ThunderCore Mainnet'
+aliases = ['ThunderCore Mainnet']
+
+[[chain]]
+id = 'eip155:997'
+name = '5ireChain Thunder Testnet'
+aliases = ['5ireChain Thunder Testnet']
+
+[[chain]]
+id = 'eip155:62092'
+name = 'TikTrix Testnet'
+aliases = ['TikTrix Testnet']
+
+[[chain]]
+id = 'eip155:6969'
+name = 'Tomb Mainnet'
+aliases = ['Tomb Mainnet']
+
+[[chain]]
+id = 'eip155:61166'
+name = 'Treasure'
+aliases = ['Treasure']
+
+[[chain]]
+id = 'eip155:978658'
+name = 'Treasure Topaz Testnet'
+aliases = ['Treasure Topaz Testnet']
+
+[[chain]]
+id = 'eip155:728126428'
+name = 'Tron'
+aliases = ['Tron']
+
+[[chain]]
+id = 'eip155:3448148188'
+name = 'Tron Nile'
+aliases = ['Tron Nile']
+
+[[chain]]
+id = 'eip155:2494104990'
+name = 'Tron Shasta'
+aliases = ['Tron Shasta']
+
+[[chain]]
+id = 'eip155:8'
+name = 'Ubiq Mainnet'
+aliases = ['Ubiq Mainnet']
+
+[[chain]]
+id = 'eip155:19991'
+name = 'Ultra EVM'
+aliases = ['Ultra EVM']
+
+[[chain]]
+id = 'eip155:18881'
+name = 'Ultra EVM Testnet'
+aliases = ['Ultra EVM Testnet']
+
+[[chain]]
+id = 'eip155:1231'
+name = 'Ultron Mainnet'
+aliases = ['Ultron Mainnet']
+
+[[chain]]
+id = 'eip155:1230'
+name = 'Ultron Testnet'
+aliases = ['Ultron Testnet']
+
+[[chain]]
+id = 'eip155:130'
+name = 'Unichain'
+aliases = ['Unichain']
+
+[[chain]]
+id = 'eip155:1301'
+name = 'Unichain Sepolia'
+aliases = ['Unichain Sepolia']
+
+[[chain]]
+id = 'eip155:8880'
+name = 'Unique Mainnet'
+aliases = ['Unique Mainnet']
+
+[[chain]]
+id = 'eip155:8882'
+name = 'Opal Testnet'
+aliases = ['Opal Testnet']
+
+[[chain]]
+id = 'eip155:8881'
+name = 'Quartz Mainnet'
+aliases = ['Quartz Mainnet']
+
+[[chain]]
+id = 'eip155:18233'
+name = 'Unreal'
+aliases = ['Unreal']
+
+[[chain]]
+id = 'eip155:1480'
+name = 'Vana'
+aliases = ['Vana']
+
+[[chain]]
+id = 'eip155:14800'
+name = 'Vana Moksha Testnet'
+aliases = ['Vana Moksha Testnet']
+
+[[chain]]
+id = 'eip155:2040'
+name = 'Vanar Mainnet'
+aliases = ['Vanar Mainnet']
+
+[[chain]]
+id = 'eip155:100009'
+name = 'Vechain'
+aliases = ['Vechain']
+
+[[chain]]
+id = 'eip155:106'
+name = 'Velas EVM Mainnet'
+aliases = ['Velas EVM Mainnet']
+
+[[chain]]
+id = 'eip155:88'
+name = 'Viction'
+aliases = ['Viction']
+
+[[chain]]
+id = 'eip155:89'
+name = 'Viction Testnet'
+aliases = ['Viction Testnet']
+
+[[chain]]
+id = 'eip155:888888'
+name = 'Vision'
+aliases = ['Vision']
+
+[[chain]]
+id = 'eip155:666666'
+name = 'Vision Testnet'
+aliases = ['Vision Testnet']
+
+[[chain]]
+id = 'eip155:888'
+name = 'Wanchain'
+aliases = ['Wanchain']
+
+[[chain]]
+id = 'eip155:1111'
+name = 'WEMIX'
+aliases = ['WEMIX']
+
+[[chain]]
+id = 'eip155:1112'
+name = 'WEMIX Testnet'
+aliases = ['WEMIX Testnet']
+
+[[chain]]
+id = 'eip155:420420421'
+name = 'Westend Asset Hub'
+aliases = ['Westend Asset Hub']
+
+[[chain]]
+id = 'eip155:1875'
+name = 'Whitechain'
+aliases = ['Whitechain']
+
+[[chain]]
+id = 'eip155:2625'
+name = 'Whitechain Testnet'
+aliases = ['Whitechain Testnet']
+
+[[chain]]
+id = 'eip155:42070'
+name = 'WMC Testnet'
+aliases = ['WMC Testnet']
+
+[[chain]]
+id = 'eip155:480'
+name = 'World Chain'
+aliases = ['World Chain']
+
+[[chain]]
+id = 'eip155:4801'
+name = 'World Chain Sepolia'
+aliases = ['World Chain Sepolia']
+
+[[chain]]
+id = 'eip155:103'
+name = 'WorldLand Mainnet'
+aliases = ['WorldLand Mainnet']
+
+[[chain]]
+id = 'eip155:660279'
+name = 'Xai Mainnet'
+aliases = ['Xai Mainnet']
+
+[[chain]]
+id = 'eip155:37714555429'
+name = 'Xai Testnet'
+aliases = ['Xai Testnet']
+
+[[chain]]
+id = 'eip155:50'
+name = 'XDC Network'
+aliases = ['XDC Network']
+
+[[chain]]
+id = 'eip155:51'
+name = 'Apothem Network'
+aliases = ['Apothem Network']
+
+[[chain]]
+id = 'eip155:1643'
+name = 'XGR Mainnet'
+aliases = ['XGR Mainnet']
+
+[[chain]]
+id = 'eip155:196'
+name = 'X Layer Mainnet'
+aliases = ['X Layer Mainnet']
+
+[[chain]]
+id = 'eip155:195'
+name = 'X1 Testnet'
+aliases = ['X1 Testnet']
+
+[[chain]]
+id = 'eip155:3721'
+name = 'Xone Chain Mainnet'
+aliases = ['Xone Chain Mainnet']
+
+[[chain]]
+id = 'eip155:33772211'
+name = 'Xone Chain Testnet'
+aliases = ['Xone Chain Testnet']
+
+[[chain]]
+id = 'eip155:20250217'
+name = 'Xphere Mainnet'
+aliases = ['Xphere Mainnet']
+
+[[chain]]
+id = 'eip155:1998991'
+name = 'Xphere Testnet'
+aliases = ['Xphere Testnet']
+
+[[chain]]
+id = 'eip155:273'
+name = 'XR One'
+aliases = ['XR One']
+
+[[chain]]
+id = 'eip155:1440000'
+name = 'XRPL EVM'
+aliases = ['XRPL EVM']
+
+[[chain]]
+id = 'eip155:1440002'
+name = 'XRPL EVM Devnet'
+aliases = ['XRPL EVM Devnet']
+
+[[chain]]
+id = 'eip155:1449000'
+name = 'XRPL EVM Testnet'
+aliases = ['XRPL EVM Testnet']
+
+[[chain]]
+id = 'eip155:2730'
+name = 'XR Sepolia'
+aliases = ['XR Sepolia']
+
+[[chain]]
+id = 'eip155:50005'
+name = 'Yooldo Verse'
+aliases = ['Yooldo Verse']
+
+[[chain]]
+id = 'eip155:50006'
+name = 'Yooldo Verse Testnet'
+aliases = ['Yooldo Verse Testnet']
+
+[[chain]]
+id = 'eip155:8408'
+name = 'ZenChain Testnet'
+aliases = ['ZenChain Testnet']
+
+[[chain]]
+id = 'eip155:383414847825'
+name = 'Zeniq Mainnet'
+aliases = ['Zeniq Mainnet']
+
+[[chain]]
+id = 'eip155:543210'
+name = 'Zero Network'
+aliases = ['Zero Network']
+
+[[chain]]
+id = 'eip155:7000'
+name = 'ZetaChain'
+aliases = ['ZetaChain']
+
+[[chain]]
+id = 'eip155:7001'
+name = 'ZetaChain Athens Testnet'
+aliases = ['ZetaChain Athens Testnet']
+
+[[chain]]
+id = 'eip155:1337803'
+name = 'Zhejiang'
+aliases = ['Zhejiang']
+
+[[chain]]
+id = 'eip155:32769'
+name = 'Zilliqa'
+aliases = ['ZIL']
+
+[[chain]]
+id = 'eip155:33101'
+name = 'Zilliqa Testnet'
+aliases = ['Zilliqa Testnet']
+
+[[chain]]
+id = 'eip155:48900'
+name = 'Zircuit Mainnet'
+aliases = ['Zircuit Mainnet']
+
+[[chain]]
+id = 'eip155:48898'
+name = 'Zircuit Garfield Testnet'
+aliases = ['Zircuit Garfield Testnet']
+
+[[chain]]
+id = 'eip155:48899'
+name = 'Zircuit Testnet'
+aliases = ['Zircuit Testnet']
+
+[[chain]]
+id = 'eip155:42766'
+name = 'ZKFair Mainnet'
+aliases = ['ZKFair Mainnet']
+
+[[chain]]
+id = 'eip155:43851'
+name = 'ZKFair Testnet'
+aliases = ['ZKFair Testnet']
+
+[[chain]]
+id = 'eip155:810180'
+name = 'zkLink Nova'
+aliases = ['zkLink Nova']
+
+[[chain]]
+id = 'eip155:810181'
+name = 'zkLink Nova Sepolia Testnet'
+aliases = ['zkLink Nova Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:324'
+name = 'ZKsync Era'
+aliases = ['ZKsync Era']
+
+[[chain]]
+id = 'eip155:272'
+name = 'ZKsync CLI Local Custom Hyperchain'
+aliases = ['ZKsync CLI Local Custom Hyperchain']
+
+[[chain]]
+id = 'eip155:270'
+name = 'ZKsync CLI Local Hyperchain'
+aliases = ['ZKsync CLI Local Hyperchain']
+
+[[chain]]
+id = 'eip155:300'
+name = 'ZKsync Sepolia Testnet'
+aliases = ['ZKsync Sepolia Testnet']
+
+[[chain]]
+id = 'eip155:375'
+name = 'zkXPLA Mainnet'
+aliases = ['zkXPLA Mainnet']
+
+[[chain]]
+id = 'eip155:475'
+name = 'zkXPLA Testnet'
+aliases = ['zkXPLA Testnet']
+
+[[chain]]
+id = 'eip155:7777777'
+name = 'Zora'
+aliases = ['Zora']
+
+[[chain]]
+id = 'eip155:999999999'
+name = 'Zora Sepolia'
+aliases = ['Zora Sepolia']
+
+[[chain]]
+id = 'eip155:534352'
+name = 'Scroll'
+aliases = ['Scroll']
