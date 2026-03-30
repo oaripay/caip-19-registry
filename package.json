@@ -1,25 +1,29 @@
 {
-  "name": "@oari/caip-19-registry",
-  "type": "module",
-  "version": "1.1.0",
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "useTabs": true
-  },
-  "dependencies": {
-    "@hono/node-server": "1.19.9",
-    "@mwni/log": "3.4.0",
-    "@types/better-sqlite3": "7.6.13",
-    "better-sqlite3": "12.6.2",
-    "hono": "4.12.3",
-    "minimist": "1.2.8",
-    "toml": "3.0.0",
-    "tsx": "4.21.0"
-  },
-  "devDependencies": {
-    "@types/minimist": "1.2.5",
-    "@types/node": "25.3.2",
-    "typescript": "5.9.3"
-  }
+	"name": "@oari/caip-19-registry",
+	"type": "module",
+	"version": "1.1.0",
+	"scripts": {
+		"run": "node run.js",
+		"production": "pm2 start ecosystem.config.cjs"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true
+	},
+	"dependencies": {
+		"@hono/node-server": "1.19.9",
+		"@mwni/log": "3.4.0",
+		"@types/better-sqlite3": "7.6.13",
+		"better-sqlite3": "12.6.2",
+		"hono": "4.12.3",
+		"minimist": "1.2.8",
+		"toml": "3.0.0",
+		"tsx": "4.21.0"
+	},
+	"devDependencies": {
+		"@types/minimist": "1.2.5",
+		"@types/node": "25.3.2",
+		"typescript": "5.9.3"
+	}
 }

@@ -19,5 +19,4 @@ jobs:
           script: |
             cd /root/caip-19-registry
             git pull --rebase --autostash
-            npm i
-            pm2 restart caip-19-registry
+            npm run production
